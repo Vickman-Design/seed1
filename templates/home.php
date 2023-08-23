@@ -1,586 +1,1196 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Bootstrap 4 project documentation theme for developers</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <!-- FontAwesome JS -->
-    <script defer src="assets/fontawesome/js/all.js"></script>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Plugins CSS -->    
-    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
-    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">  
-      
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    
-</head> 
 
-<body class="body-green">
-    <div class="page-wrapper">
-        <!-- ******Header****** -->
-        <header id="header" class="header">
-            <div class="container">
-                <div class="branding">
-                    <h1 class="logo">
-                        <a href="index.html">
-                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
-                            <span class="text-highlight">Pretty</span><span class="text-bold">Docs</span>
-                        </a>
-                    </h1>
-                    
-                </div><!--//branding-->
-                
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">Quick Start</li>
-                </ol>
-                
-                <div class="top-search-box">
-	                 <form class="form-inline search-form justify-content-center" action="" method="get">
-	            
-			            <input type="text" placeholder="Search..." name="search" class="form-control search-input">
-			            
-			            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
-			            
-			        </form>
+  <!-- header-section end  -->
+
+    <!-- hero start -->
+    <section class="hero bg_img" data-background="<?= $assets ?>/images/bg/hero.jpg">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5 col-lg-8">
+            <div class="hero__content">
+              <h2 class="hero__title"><span class="text-white font-weight-normal">Invest for Future in Stable Platform</span> <b class="base--color">and Make Fast Money</b></h2>
+              <p class="text-white f-size-18 mt-3">Invest in an Industry Leader, Professional, and Reliable Company. We provide you with the most necessary features that will make your experience better. Not only we guarantee the fastest and the most exciting returns on your investments, but we also guarantee the security of your investment.</p>
+              <a href="#0" class="cmn-btn text-uppercase font-weight-600 mt-4">Sign Up</a>
+              <a href="#0" class="cmn-btn text-uppercase font-weight-600 mt-4">Login</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- cureency section start -->
+    <div class="cureency-section">
+      <div class="container">
+        <div class="row mb-none-30">
+          <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+            <div class="cureency-card text-center">
+              <h6 class="cureency-card__title text-white">BITCOIN PRICE</h6>
+              <span class="cureency-card__amount h-font-family font-weight-600 base--color">3150.00 USD</span>
+            </div><!-- cureency-card end -->
+          </div><!-- cureency-item end -->
+          <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+            <div class="cureency-card text-center">
+              <h6 class="cureency-card__title text-white">BITCOIN PRICE</h6>
+              <span class="cureency-card__amount h-font-family font-weight-600 base--color">2850.00 EUR</span>
+            </div><!-- cureency-card end -->
+          </div><!-- cureency-item end -->
+          <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+            <div class="cureency-card text-center">
+              <h6 class="cureency-card__title text-white">24 VOLUME</h6>
+              <span class="cureency-card__amount h-font-family font-weight-600 base--color">2,547.35 BTC</span>
+            </div><!-- cureency-card end -->
+          </div><!-- cureency-item end -->
+          <div class="col-lg-3 col-sm-6 cureency-item mb-30">
+            <div class="cureency-card text-center">
+              <h6 class="cureency-card__title text-white">ACTIVE TRADES</h6>
+              <span class="cureency-card__amount h-font-family font-weight-600 base--color">2,545,875</span>
+            </div><!-- cureency-card end -->
+          </div><!-- cureency-item end -->
+        </div>
+      </div>
+    </div>
+    <!-- cureency section end  -->
+
+    <!-- about section start -->
+    <section class="about-section pt-120 pb-120 bg_img" data-background="<?= $assets ?>/images/bg/bg-2.jpg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-6">
+            <div class="about-content">
+              <h2 class="section-title mb-3"><span class="font-weight-normal">About</span> <b class="base--color">Us</b></h2>
+              <p>We are an international financial company engaged in investment activities, which are related to trading on financial markets and cryptocurrency exchanges performed by qualified professional traders.</p>
+              <p class="mt-4">Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service, allowing us to automate and simplify the relations between the investors and the trustees. We work towards increasing your profit margin by profitable investment. We look forward to you being part of our community.</p>
+              <a href="#0" class="cmn-btn mt-4">MORE INFO</a>
+            </div><!-- about-content end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- package section start -->
+    <section class="pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section-header">
+              <h2 class="section-title"><span class="font-weight-normal">Investment</span> <b class="base--color">Plans</b></h2>
+              <p>To make a solid investment, you have to know where you are investing. Find a plan which is best for you.</p>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row justify-content-center mb-none-30">
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+              <h4 class="package-card__title base--color mb-2">Slivesto</h4>
+              <ul class="package-card__features mt-4">
+                <li>Return 6%</li>
+                <li>Every Week</li>
+                <li>For 5 Week</li>
+                <li>Total 30% + <span class="badge base--bg text-dark">Capital</span></li>
+              </ul>
+              <div class="package-card__range mt-5 base--color">$200</div>
+              <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
+            </div><!-- package-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+              <h4 class="package-card__title base--color mb-2">Life Time</h4>
+              <ul class="package-card__features mt-4">
+                <li>Return 0.2%</li>
+                <li>Every Day</li>
+                <li>For Lifetime</li>
+                <li>Lifetime Earning</li>
+              </ul>
+              <div class="package-card__range mt-5 base--color">$100 - $200</div>
+              <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
+            </div><!-- package-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+              <h4 class="package-card__title base--color mb-2">Black Horse</h4>
+              <ul class="package-card__features mt-4">
+                <li>Return 5%</li>
+                <li>Every Week</li>
+                <li>For 40 Week</li>
+                <li>Total 200%</li>
+              </ul>
+              <div class="package-card__range mt-5 base--color">$500 - $5000</div>
+              <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
+            </div><!-- package-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+              <h4 class="package-card__title base--color mb-2">Silver</h4>
+              <ul class="package-card__features mt-4">
+                <li>Return 5%</li>
+                <li>Every Day</li>
+                <li>For 25 Day</li>
+                <li>Total 125%</li>
+              </ul>
+              <div class="package-card__range mt-5 base--color">$500</div>
+              <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
+            </div><!-- package-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+              <h4 class="package-card__title base--color mb-2">Elephant</h4>
+              <ul class="package-card__features mt-4">
+                <li>Return 1.1USD</li>
+                <li>Every Day</li>
+                <li>For 50 Day</li>
+                <li>Total 55USD + <span class="badge base--bg">Capital</span></li>
+              </ul>
+              <div class="package-card__range mt-5 base--color">$500 - $700</div>
+              <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
+            </div><!-- package-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+              <h4 class="package-card__title base--color mb-2">Cobra</h4>
+              <ul class="package-card__features mt-4">
+                <li>Return 10USD</li>
+                <li>Every Hour</li>
+                <li>For 150 Hour</li>
+                <li>Total 1500USD + <span class="badge base--bg">Capital</span></li>
+              </ul>
+              <div class="package-card__range mt-5 base--color">$1000</div>
+              <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
+            </div><!-- package-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+              <h4 class="package-card__title base--color mb-2">Lion</h4>
+              <ul class="package-card__features mt-4">
+                <li>Return 0.2%</li>
+                <li>Every Day</li>
+                <li>For Lifetime</li>
+                <li>Lifetime Earning</li>
+              </ul>
+              <div class="package-card__range mt-5 base--color">$100 - $500</div>
+              <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
+            </div><!-- package-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
+            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+              <h4 class="package-card__title base--color mb-2">Tiger</h4>
+              <ul class="package-card__features mt-4">
+                <li>Return 0.2%</li>
+                <li>Every Day</li>
+                <li>For Lifetime</li>
+                <li>Lifetime Earning</li>
+              </ul>
+              <div class="package-card__range mt-5 base--color">$100 - $500</div>
+              <a href="#0" class="cmn-btn btn-md mt-4">Invest Now</a>
+            </div><!-- package-card end -->
+          </div>
+        </div><!-- row end -->
+        <div class="row mt-50">
+          <div class="col-lg-12 text-center">
+            <a href="#0" class="cmn-btn">View All Packages</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- package section end  -->
+
+    <!-- choose us section start -->
+    <section class="pt-120 pb-120 overlay--radial bg_img" data-background="<?= $assets ?>/images/bg/bg-3.jpg">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section-header">
+              <h2 class="section-title"><span class="font-weight-normal">Why Choose</span> <b class="base--color">Hyiplab</b></h2>
+              <p>Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service.</p>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row justify-content-center mb-none-30">
+          <div class="col-xl-4 col-md-6 mb-30">
+            <div class="choose-card border-radius--5">
+              <div class="choose-card__header mb-3">
+                <div class="choose-card__icon">
+                  <i class="lar la-copy"></i>
                 </div>
-                
-            </div><!--//container-->
-        </header><!--//header-->
-        <div class="doc-wrapper">
-            <div class="container">
-                <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"><i class="icon fa fa-paper-plane"></i> Quick Start</h1>
-                    <div class="meta"><i class="far fa-clock"></i> Last updated: Oct 12th, 2020</div>
-                </div><!--//doc-header-->
-                <div class="doc-body row">
-                    <div class="doc-content col-md-9 col-12 order-1">
-                        <div class="content-inner">
-                            <section id="download-section" class="doc-section">
-                                <h2 class="section-title">Download</h2>
-                                <div class="section-block">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet turpis. Curabitur aliquet pulvinar ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat <a href="#">link example</a> aenean purus leo, faucibus at elit vel, aliquet scelerisque dui. Etiam quis elit euismod, imperdiet augue sit amet, imperdiet odio. Aenean sem erat, hendrerit  eu gravida id, dignissim ut ante. Nam consequat porttitor libero euismod congue. 
-                                    </p>
-                                    <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/prettydocs-free-bootstrap-theme-for-developers-and-startups/" class="btn btn-green" target="_blank"><i class="fas fa-download"></i> Download PrettyDocs</a>
-                                </div>
-                            </section><!--//doc-section-->
-                            <section id="installation-section" class="doc-section">
-                                <h2 class="section-title">Installation</h2>
-                                <div id="step1"  class="section-block">
-                                    <h3 class="block-title">Step One</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
-                                    </p>
-                                    <div class="code-block">
-                                        <h6>Default code example:</h6>
-                                        <p><code>bower install &lt;package&gt;</code></p>
-                                        <p><code>npm install &lt;package&gt;</code></p>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="step2"  class="section-block">
-                                    <h3 class="block-title">Step Two</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                                    </p>
-                                    <div class="row">
-                                        <div class="col-md-6 col-12">
-                                            <h6>Un-ordered list example</h6>
-                                            <ul class="list">
-        										<li>Lorem ipsum dolor sit amet.</li>
-        										<li>Aliquam tincidunt mauris.</li>
-        										<li>Ultricies eget vel aliquam libero.
-        											<ul>
-        												<li>Turpis pulvinar</li>
-        												<li>Feugiat scelerisque</li>
-        												<li>Ut tincidunt</li>
-        											</ul>
-        										</li>
-        										<li>Pellentesque habitant morbi.</li>
-        										<li>Praesent dapibus, neque id.</li>
-        									</ul>
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <h6>Ordered list example</h6>
-                                            <ol class="list">
-        										<li>Lorem ipsum dolor sit amet.</li>
-        										<li>Aliquam tincidunt mauris.</li>
-        										<li>Ultricies eget vel aliquam libero.
-        											<ul>
-        												<li>Turpis pulvinar</li>
-        												<li>Feugiat scelerisque</li>
-        												<li>Ut tincidunt</li>
-        											</ul>
-        										</li>
-        										<li>Pellentesque habitant morbi.</li>
-        										<li>Praesent dapibus, neque id.</li>
-        									</ol>
-                                        </div>
-                                    </div><!--//row-->
-                                </div><!--//section-block-->
-                                <div id="step3"  class="section-block">
-                                    <h3 class="block-title">Step Three</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
-                                    </p>
-                                </div><!--//section-block-->
-                            </section><!--//doc-section-->
-                            
-                            <section id="code-section" class="doc-section">
-                                <h2 class="section-title">Code</h2>
-                                <div class="section-block">
-                                    <p>
-                                        <a href="https://prismjs.com/" target="_blank">PrismJS</a> is used as the syntax highlighter here. You can <a href="https://prismjs.com/download.html" target="_blank">build your own version</a> via their website should you need to.
-                                    </p>
-                                    
-                                </div><!--//section-block-->
-                                <div id="html" class="section-block">
-                                    
-                                    <div class="callout-block callout-success">
-                                        <div class="icon-holder">
-                                            <i class="fas fa-thumbs-up"></i>
-                                        </div><!--//icon-holder-->
-                                        <div class="content">
-                                            <h4 class="callout-title">Useful Tip:</h4>
-                                            <p>You can use this online <a href="https://mothereff.in/html-entities" target="_blank">HTML entity encoder/decoder</a> to generate your code examples.</p>
-                                        </div><!--//content-->
-                                    </div>
-                                    <div class="code-block">
-                                        <h6>HTML Code Example</h6>
-                                        <pre><code class="language-markup">&lt;!DOCTYPE html&gt; 
-&lt;html lang=&quot;en&quot;&gt; 
-    ...
-    &lt;div class=&quot;jumbotron&quot;&gt; 
-        &lt;h1&gt;Hello, world!&lt;/h1&gt; 
-        &lt;p&gt;...&lt;/p&gt; 
-        &lt;p&gt;&lt;a class=&quot;btn btn-primary btn-lg&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt; 
-    &lt;/div&gt;
-    &lt;div class=&quot;jumbotron&quot;&gt; 
-        &lt;h1&gt;Hello, world!&lt;/h1&gt; 
-        &lt;p&gt;...&lt;/p&gt; 
-        &lt;p&gt;&lt;a class=&quot;btn btn-primary btn-lg&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt; 
-    &lt;/div&gt;
-    ...
-&lt;/html&gt;</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="css" class="section-block">
-                                    <div class="code-block">
-                                        <h6>CSS Code Example</h6>
-                                        <pre><code class="language-css">/* ======= Base Styling ======= */
-body {
-    font-family: 'Open Sans', arial, sans-serif; 
-    color: #333; 
-    font-size: 16px; 
-    -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale; 
-}</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="sass" class="section-block">
-                                    <div class="code-block">
-                                        <h6>SCSS Code Example</h6>
-                                        <pre><code class="language-css">@mixin transform($property) {
-  -webkit-transform: $property;
-      -ms-transform: $property;
-          transform: $property;
-}
+                <h4 class="choose-card__title base--color">Legal Company</h4>
+              </div>
+              <p>Our company conducts absolutely legal activities in the legal field. We are certified to operate investment business, we are legal and safe.</p>
+            </div><!-- choose-card end -->
+          </div>
+          <div class="col-xl-4 col-md-6 mb-30">
+            <div class="choose-card border-radius--5">
+              <div class="choose-card__header mb-3">
+                <div class="choose-card__icon">
+                  <i class="las la-lock"></i>
+                </div>
+                <h4 class="choose-card__title base--color">High reliability</h4>
+              </div>
+              <p>We are trusted by a huge number of people. We are working hard constantly to improve the level of our security system and minimize possible risks.</p>
+            </div><!-- choose-card end -->
+          </div>
+          <div class="col-xl-4 col-md-6 mb-30">
+            <div class="choose-card border-radius--5">
+              <div class="choose-card__header mb-3">
+                <div class="choose-card__icon">
+                  <i class="las la-user-lock"></i>
+                </div>
+                <h4 class="choose-card__title base--color">Anonymity</h4>
+              </div>
+              <p>Anonymity and using cryptocurrency as a payment instrument. In the era of electronic money – this is one of the most convenient ways of cooperation.</p>
+            </div><!-- choose-card end -->
+          </div>
+          <div class="col-xl-4 col-md-6 mb-30">
+            <div class="choose-card border-radius--5">
+              <div class="choose-card__header mb-3">
+                <div class="choose-card__icon">
+                  <i class="las la-shipping-fast"></i>
+                </div>
+                <h4 class="choose-card__title base--color">Quick Withdrawal</h4>
+              </div>
+              <p>Our all retreats are treated spontaneously once requested. There are high maximum limits. The minimum withdrawal amount is only $10.</p>
+            </div><!-- choose-card end -->
+          </div>
+          <div class="col-xl-4 col-md-6 mb-30">
+            <div class="choose-card border-radius--5">
+              <div class="choose-card__header mb-3">
+                <div class="choose-card__icon">
+                  <i class="las la-users"></i>
+                </div>
+                <h4 class="choose-card__title base--color">Referral Program</h4>
+              </div>
+              <p>We are offering a certain level of referral income through our referral program. you can increase your income by simply refer a few people.</p>
+            </div><!-- choose-card end -->
+          </div>
+          <div class="col-xl-4 col-md-6 mb-30">
+            <div class="choose-card border-radius--5">
+              <div class="choose-card__header mb-3">
+                <div class="choose-card__icon">
+                  <i class="las la-headset"></i>
+                </div>
+                <h4 class="choose-card__title base--color">24/7 Support</h4>
+              </div>
+              <p>We provide 24/7 customer support through e-mail and telegram. Our support representatives are periodically available to elucidate any difficulty..</p>
+            </div><!-- choose-card end -->
+          </div>
+          <div class="col-xl-4 col-md-6 mb-30">
+            <div class="choose-card border-radius--5">
+              <div class="choose-card__header mb-3">
+                <div class="choose-card__icon">
+                  <i class="las la-server"></i>
+                </div>
+                <h4 class="choose-card__title base--color">Dedicated Server</h4>
+              </div>
+              <p>We are using a dedicated server for the website which allows us exclusive use of the resources of the entire server.</p>
+            </div><!-- choose-card end -->
+          </div>
+          <div class="col-xl-4 col-md-6 mb-30">
+            <div class="choose-card border-radius--5">
+              <div class="choose-card__header mb-3">
+                <div class="choose-card__icon">
+                  <i class="fab fa-expeditedssl"></i>
+                </div>
+                <h4 class="choose-card__title base--color">SSL Secured</h4>
+              </div>
+              <p>Comodo Essential-SSL Security encryption confirms that the presented content is genuine and legitimate.</p>
+            </div><!-- choose-card end -->
+          </div>
+          <div class="col-xl-4 col-md-6 mb-30">
+            <div class="choose-card border-radius--5">
+              <div class="choose-card__header mb-3">
+                <div class="choose-card__icon">
+                  <i class="las la-shield-alt"></i>
+                </div>
+                <h4 class="choose-card__title base--color">DDOS Protection</h4>
+              </div>
+              <p>We are using one of the most experienced, professional, and trusted DDoS Protection and mitigation provider.</p>
+            </div><!-- choose-card end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- choose us section end  -->
 
-.box { @include transform(rotate(30deg)); }</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="less" class="section-block">
-                                    <div class="code-block">
-                                        <h6>LESS Code Example</h6>
-                                        <pre><code class="language-css">@base: #f04615;
-@width: 0.5;
+    <!-- profit calculator section start -->
+    <section class="pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="section-header text-center">
+              <h2 class="section-title"><span class="font-weight-normal">Profit</span> <b class="base--color">Calculator</b></h2>
+              <p>You must know the calculation before investing in any plan, so you never make mistakes. Check the calculation and you will get as our calculator says.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <div class="profit-calculator-wrapper">
+              <form class="profit-calculator">
+                <div class="row mb-none-30">
+                  <div class="col-lg-6 mb-30">
+                    <label>Choose Plan</label>
+                    <select class="base--bg">
+                      <option>Basic Package</option>
+                      <option>Standard Package</option>
+                      <option>Silver Package</option>
+                      <option>Premium Package</option>
+                      <option>Platinum Package</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-6 mb-30">
+                    <label>Invest Amount</label>
+                    <input type="text" name="invest_amount" id="invest_amount" placeholder="0.00" class="form-control base--bg">
+                  </div>
+                  <div class="col-lg-12 mb-30">
+                    <label>Profit Amount</label>
+                    <input type="text" name="profit_amount" id="profit_amount" placeholder="0.00" class="form-control base--bg" disabled>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- profit calculator section end -->
 
-.class {
-  width: percentage(@width); // returns &#x60;50%&#x60;
-  color: saturate(@base, 5%);
-  background-color: spin(lighten(@base, 25%), 8);
-}</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="javascript" class="section-block">
-                                    <div class="code-block">
-                                        <h6>JavaScript Code Example</h6>
-                                        <pre><code class="language-javascript">&lt;script&gt; 
-    function myFunction(a, b) { 
-        return a * b; 
-    } 
+    <!-- how work section start -->
+    <section class="pt-120 pb-120 bg_img" data-background="<?= $assets ?>/images/bg/bg-5.jpg">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section-header">
+              <h2 class="section-title"><span class="font-weight-normal">How</span> <b class="base--color">Hyiplab</b> <span class="font-weight-normal">Works</span></h2>
+              <p>Get involved in our tremendous platform and Invest. We will utilize your money and give you profit in your wallet automatically.</p>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row justify-content-center mb-none-30">
+          <div class="col-lg-4 col-md-6 work-item mb-30">
+            <div class="work-card text-center">
+              <div class="work-card__icon">
+                <i class="las la-user base--color"></i>
+                <span class="step-number">01</span>
+              </div>
+              <div class="work-card__content">
+                <h4 class="base--color mb-3">Create Account</h4>
+              </div>
+            </div><!-- work-card end -->
+          </div>
+          <div class="col-lg-4 col-md-6 work-item mb-30">
+            <div class="work-card text-center">
+              <div class="work-card__icon">
+                <i class="las la-hand-holding-usd base--color"></i>
+                <span class="step-number">02</span>
+              </div>
+              <div class="work-card__content">
+                <h4 class="base--color mb-3">Invest To Plan</h4>
+              </div>
+            </div><!-- work-card end -->
+          </div>
+          <div class="col-lg-4 col-md-6 work-item mb-30">
+            <div class="work-card text-center">
+              <div class="work-card__icon">
+                <i class="las la-wallet base--color"></i>
+                <span class="step-number">03</span>
+              </div>
+              <div class="work-card__content">
+                <h4 class="base--color mb-3">Get Profit</h4>
+              </div>
+            </div><!-- work-card end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- how work section end  -->
+
     
-    document.getElementById(&quot;demo&quot;).innerHTML = myFunction(4, 3); 
-&lt;/script&gt;</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="python" class="section-block">
-                                    <div class="code-block">
-                                        <h6>Python Code Example</h6>
-                                        <pre><code class="language-python">&gt;&gt;&gt; x = int(input(&quot;
-Please enter an integer: &quot;)) Please enter an integer: 42 
-&gt;&gt;&gt; if x &lt; 0: 
-... x = 0 
-... print('Negative changed to zero') 
-... elif x == 0: 
-... print('Zero') 
-... elif x == 1: 
-... print('Single') 
-... else: 
-... print('More') 
-... More</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="php" class="section-block">
-                                    <div class="code-block">
-                                        <h6>PHP Code Example</h6>
-                                        <pre><code class="language-php">&lt;?php 
-$txt = &quot;Hello world!&quot;; 
-$x = 5; 
-$y = 10.5; 
-
-echo $txt; 
-echo &quot;&lt;br&gt;&quot;; 
-echo $x; 
-echo &quot;&lt;br&gt;&quot;; 
-echo $y; 
-?&gt;</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                                <div id="handlebars" class="section-block">
-                                    <div class="code-block">
-                                        <h6>Handlebars Code Example</h6>
-                                        <pre><code class="language-handlebars">Handlebars.registerHelper('list', function(items, options) { 
-  var out = &quot;&lt;ul&gt;&quot;; 
-  
-  for(var i=0, l=items.length; i&lt;l; i++) { 
-    out = out + &quot;&lt;li&gt;&quot; + options.fn(items[i]) + &quot;&lt;/li&gt;&quot;; 
-  } 
-  
-  return out + &quot;&lt;/ul&gt;&quot;; 
-});</code></pre>
-                                    </div><!--//code-block-->
-                                    <div class="code-block">
-                                        <h6>Git Code Example</h6>
-                                        <pre><code class="language-git">$ git add Documentation.txt</code></pre>
-                                    </div><!--//code-block-->
-                                </div><!--//section-block-->
-                            </section><!--//doc-section-->
-                            <section id="callouts-section" class="doc-section">
-                                <h2 class="section-title">Callouts</h2>
-                                <div class="section-block">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
-                                    </p>
-                                </div>
-
-                                <div class="section-block">
-                                    <div class="callout-block callout-info">
-                                        <div class="icon-holder">
-                                            <i class="fas fa-info-circle"></i>
-                                        </div><!--//icon-holder-->
-                                        <div class="content">
-                                            <h4 class="callout-title">Aenean imperdiet</h4>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium <code>&lt;code&gt;</code> , Nemo enim ipsam voluptatem quia voluptas <a href="#">link example</a> sit aspernatur aut odit aut fugit.</p>
-                                        </div><!--//content-->
-                                    </div><!--//callout-block-->
-                                    
-                                    <div class="callout-block callout-warning">
-                                        <div class="icon-holder">
-                                            <i class="fas fa-bug"></i>
-                                        </div><!--//icon-holder-->
-                                        <div class="content">
-                                            <h4 class="callout-title">Morbi posuere</h4>
-                                            <p>Nunc hendrerit odio quis dignissim efficitur. Proin ut finibus libero. Morbi posuere fringilla felis eget sagittis. Fusce sem orci, cursus in tortor <a href="#">link example</a> tellus vel diam viverra elementum.</p>
-                                        </div><!--//content-->
-                                    </div><!--//callout-block-->
-                                    
-                                    <div class="callout-block callout-success">
-                                        <div class="icon-holder">
-                                            <i class="fas fa-thumbs-up"></i>
-                                        </div><!--//icon-holder-->
-                                        <div class="content">
-                                            <h4 class="callout-title">Lorem ipsum dolor sit amet</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="#">Link example</a> aenean commodo ligula eget dolor.</p>
-                                        </div><!--//content-->
-                                    </div><!--//callout-block-->
-                                    
-                                    <div class="callout-block callout-danger">
-                                        <div class="icon-holder">
-                                            <i class="fas fa-exclamation-triangle"></i>
-                                        </div><!--//icon-holder-->
-                                        <div class="content">
-                                            <h4 class="callout-title">Interdum et malesuada</h4>
-                                            <p>Morbi eget interdum sapien. Donec sed turpis sed nulla lacinia accumsan vitae ut tellus. Aenean vestibulum <a href="#">Link example</a> maximus ipsum vel dignissim. Morbi ornare elit sit amet massa feugiat, viverra dictum ipsum pellentesque. </p>
-                                        </div><!--//content-->
-                                    </div><!--//callout-block-->
-                                </div>
-                            </section><!--//doc-section-->
-                            <section id="tables-section" class="doc-section">
-                                <h2 class="section-title">Tables</h2>
-                                <div class="section-block">
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
-                                    </p>
-                                </div>
-                                <div class="section-block">
-                                    <h6>Basic Table</h6>
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>First Name</th>
-                                                    <th>Last Name</th>
-                                                    <th>Username</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>@mdo</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <td>Jacob</td>
-                                                    <td>Thornton</td>
-                                                    <td>@fat</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3</th>
-                                                    <td>Larry</td>
-                                                    <td>the Bird</td>
-                                                    <td>@twitter</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div><!--//table-responsive-->
-                                    <h6>Striped Table</h6>
-                                    <div class="table-responsive">
-                                        <table class="table table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>First Name</th>
-                                                    <th>Last Name</th>
-                                                    <th>Username</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>@mdo</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <td>Jacob</td>
-                                                    <td>Thornton</td>
-                                                    <td>@fat</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3</th>
-                                                    <td>Larry</td>
-                                                    <td>the Bird</td>
-                                                    <td>@twitter</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div><!--//table-responsive-->
-                                    <h6>Bordered Table</h6>
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>First Name</th>
-                                                    <th>Last Name</th>
-                                                    <th>Username</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>@mdo</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <td>Jacob</td>
-                                                    <td>Thornton</td>
-                                                    <td>@fat</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3</th>
-                                                    <td>Larry</td>
-                                                    <td>the Bird</td>
-                                                    <td>@twitter</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div><!--//table-responsive-->
-                                </div><!--//section-block-->
-                            </section><!--//doc-section-->
-                            <section id="buttons-section" class="doc-section">
-                                <h2 class="section-title">Buttons</h2>
-                                <div class="section-block">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet turpis. Curabitur aliquet pulvinar ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat <a href="#">link example</a> aenean purus leo, faucibus at elit vel, aliquet scelerisque dui. Etiam quis elit euismod, imperdiet augue sit amet, imperdiet odio. Aenean sem erat, hendrerit  eu gravida id, dignissim ut ante. Nam consequat porttitor libero euismod congue. 
-                                    </p>
-                                    <div class="row">
-                                        <div class="col-md-6 col-12">
-                                            <h6>Basic Buttons</h6>
-                                            <ul class="list list-unstyled">
-                                                <li><a href="#" class="btn btn-primary">Primary Button</a></li>
-                                                <li><a href="#" class="btn btn-green">Green Button</a></li>
-                                                <li><a href="#" class="btn btn-blue">Blue Button</a></li>
-                                                <li><a href="#" class="btn btn-orange">Orange Button</a></li>
-                                                <li><a href="#" class="btn btn-red">Red Button</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <h6>CTA Buttons</h6>
-                                            <ul class="list list-unstyled">
-                                                <li><a href="#" class="btn btn-primary btn-cta"><i class="fas fa-download"></i> Download Now</a></li>
-                                                <li><a href="#" class="btn btn-green btn-cta"><i class="fas fa-code-branch"></i> Fork Now</a></li>
-                                                <li><a href="#" class="btn btn-blue btn-cta"><i class="fas fa-play-circle"></i> Find Out Now</a></li>
-                                                <li><a href="#" class="btn btn-orange btn-cta"><i class="fas fa-bug"></i> Report Bugs</a></li>
-                                                <li><a href="#" class="btn btn-red btn-cta"><i class="fas fa-exclamation-circle"></i> Submit Issues</a></li>
-                                            </ul>
-                                        </div>
-                                    </div><!--//row-->
-                                </div><!--//section-block-->
-                            </section><!--//doc-section-->
-                            <section id="video-section" class="doc-section">
-                                <h2 class="section-title">Video</h2>
-                                <div class="section-block">
-                                    <div class="row">
-                                        <div class="col-md-6 col-12">
-                                            <h6>Responsive Video 16:9</h6>
-                                            <!-- 16:9 aspect ratio -->
-                                            <div class="embed-responsive embed-responsive-16by9">
-                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ejBkOjEG6F0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12">
-                                            <h6>Responsive Video 4:3</h6>
-                                            <!-- 4:3 aspect ratio -->
-                                            <div class="embed-responsive embed-responsive-4by3">
-                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ejBkOjEG6F0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div><!--//row-->
-                                </div><!--//section-block-->
-                            <section id="icons-section" class="doc-section">
-                                <h2 class="section-title">Icons</h2>
-                                <div class="section-block">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet turpis. Curabitur aliquet pulvinar ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat <a href="#">link example</a> aenean purus leo, faucibus at elit vel, aliquet scelerisque dui. Etiam quis elit euismod, imperdiet augue sit amet, imperdiet odio. Aenean sem erat, hendrerit  eu gravida id, dignissim ut ante. Nam consequat porttitor libero euismod congue. 
-                                    </p>
-                                </div><!--//section-block-->
-                                <div class="section-block">
-                                    <h6>Elegant Icon Font</h6>
-                                    <a href="https://www.elegantthemes.com/blog/resources/elegant-icon-font" target="_blank"><img class="img-fluid" src="assets/images/demo/elegant-icon-font.jpg" alt="elegant icons" /></a>
-                                </div><!--//section-block-->
-                                <div class="section-block">
-                                    <h6>FontAwesome Icon Font</h6>
-                                    <a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><img class="img-fluid" src="assets/images/demo/fontawesome-icons.png" alt="fontawesome" /></a>
-                                </div><!--//section-block-->
-                                
-                            </section><!--//doc-section-->
-                            
-                            </section><!--//doc-section-->
-                        </div><!--//content-inner-->
-                    </div><!--//doc-content-->
-                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
-                        <div id="doc-nav" class="doc-nav">
-	                        
-	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-	                                <a class="nav-link scrollto" href="#download-section">Download</a>
-	                                <a class="nav-link scrollto" href="#installation-section">Installation</a>
-                                    <nav class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto" href="#step1">Step One</a>
-                                        <a class="nav-link scrollto" href="#step2">Step Two</a>
-                                        <a class="nav-link scrollto" href="#step3">Step Three</a>
-                                    </nav><!--//nav-->
-	                                <a class="nav-link scrollto" href="#code-section">Code</a>
-                                    <nav class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto" href="#html">HTML</a>
-                                        <a class="nav-link scrollto" href="#css">CSS</a>
-                                        <a class="nav-link scrollto" href="#sass">Sass</a>
-                                        <a class="nav-link scrollto" href="#less">LESS</a>
-                                        <a class="nav-link scrollto" href="#javascript">JavaScript</a>
-                                        <a class="nav-link scrollto" href="#python">Python</a>
-                                        <a class="nav-link scrollto" href="#php">PHP</a>
-                                        <a class="nav-link scrollto" href="#handlebars">Handlebars</a>
-                                    </nav><!--//nav-->
-	                                <a class="nav-link scrollto" href="#callouts-section">Callouts</a>
-	                                <a class="nav-link scrollto" href="#tables-section">Tables</a>
-	                                <a class="nav-link scrollto" href="#buttons-section">Buttons</a>
-	                                <a class="nav-link scrollto" href="#video-section">Video</a>
-	                                <a class="nav-link scrollto" href="#icons-section">Icons</a>
-	                            </nav><!--//doc-menu-->
-	                        
-                        </div>
-                    </div><!--//doc-sidebar-->
-                </div><!--//doc-body-->              
-            </div><!--//container-->
-        </div><!--//doc-wrapper-->
-        
-        <div id="promo-block" class="promo-block">
-            <div class="container">
-                <div class="promo-block-inner">
-                    <h3 class="promo-title text-center"><i class="fas fa-heart"></i> <a href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Are you an ambitious and entrepreneurial developer?</a></h3>
-                    <div class="row">
-                        <div class="figure-holder col-lg-5 col-md-6 col-12">
-                            <div class="figure-holder-inner">
-                                <a href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><img class="img-fluid" src="assets/images/demo/instance-promo.jpg" alt="Instance Theme" /></a>
-                                <a class="mask" href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/"><i class="icon fa fa-heart pink"></i></a>
-                                
-                            </div>
-                        </div><!--//figure-holder-->
-                        <div class="content-holder col-lg-7 col-md-6 col-12">
-                            <div class="content-holder-inner">
-                                <div class="desc">
-                                    <h4 class="content-title"><strong> Instance - Bootstrap 4 Portfolio Theme for Aspiring Developers</strong></h4>
-                                    <p>Check out <a href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Instance</a> - a Bootstrap personal portfolio theme I created for developers. The UX design is focused on selling a developer’s skills and experience to potential employers or clients, and has <strong class="highlight">all the winning ingredients to get you hired</strong>. It’s not only a HTML site template but also a marketing framework for you to <strong class="highlight">build an impressive online presence with a high conversion rate</strong>. </p>
-                                    <p><strong class="highlight">[Tip for developers]:</strong> If your project is Open Source, you can use this area to promote your other projects or hold third party adverts like Bootstrap and FontAwesome do!</p>
-                                    <a class="btn btn-cta" href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i> View Demo</a>
-                                    
-                                </div><!--//desc-->
-                                
-                                
-                                <div class="author"><a href="https://themes.3rdwavemedia.com">Xiaoying Riley</a></div>
-                            </div><!--//content-holder-inner-->
-                        </div><!--//content-holder-->
-                    </div><!--//row-->
-                </div><!--//promo-block-inner-->  
-            </div><!--//container-->
-        </div><!--//promo-block-->
-        
-    </div><!--//page-wrapper-->
-    
-    <footer id="footer" class="footer text-center">
-        <div class="container">
-            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+    <!-- faq section start -->
+    <section class="pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section-header">
+              <h2 class="section-title"><span class="font-weight-normal">Frequently Asked</span> <b class="base--color">Questions</b></h2>
+              <p>We answer some of your Frequently Asked Questions regarding our platform. If you have a query that is not answered here, Please contact us.</p>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="accordion cmn-accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <i class="las la-question-circle"></i>
+                      <span>When can I deposit/withdraw from my Investment account?</span>
+                    </button>
+                  </h2>
+                </div>
             
-        </div><!--//container-->
-    </footer><!--//footer-->
-    
-     
-    <!-- Main Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
-    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                             
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    
-</body>
-</html> 
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform. Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <i class="las la-question-circle"></i>
+                      <span>How do I check my account balance?</span>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    You can see this anytime on your accounts dashboard. You can see this anytime on your accounts dashboard.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <i class="las la-question-circle"></i>
+                      <span>I forgot my password, what should I do?</span>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Visit the password reset page, type in your email address and click the `Reset` button. Visit the password reset page, type in your email address and click the `Reset` button.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <i class="las la-question-circle"></i>
+                      <span>How will I know that the withdrawal has been successful?</span>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">
+                    You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you. You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      <i class="las la-question-circle"></i>
+                      <span>How much can I withdraw?</span>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                  <div class="card-body">
+                    You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions. You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faq section end -->
 
+
+    <!-- testimonial section start -->
+    <section class="pt-120 pb-120 bg_img overlay--radial" data-background="<?= $assets ?>/images/bg/bg-7.jpg">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section-header">
+              <h2 class="section-title"><span class="font-weight-normal">What Users Say</span> <b class="base--color">About Us</b></h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="testimonial-slider">
+              <div class="single-slide">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+                  </div>
+                  <div class="testimonial-card__client">
+                    <div class="thumb">
+                      <img src="<?= $assets ?>/images/testimonial/1.jpg" alt="image">
+                    </div>
+                    <div class="content">
+                      <h6 class="name">Fahaddevs</h6>
+                      <span class="designation">CEO of fahaddevs</span>
+                      <div class="ratings">
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- testimonial-card end -->
+              </div><!-- single-slide end -->
+              <div class="single-slide">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+                  </div>
+                  <div class="testimonial-card__client">
+                    <div class="thumb">
+                      <img src="<?= $assets ?>/images/testimonial/2.jpg" alt="image">
+                    </div>
+                    <div class="content">
+                      <h6 class="name">Alina</h6>
+                      <span class="designation">CTO of fahaddevs</span>
+                      <div class="ratings">
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- testimonial-card end -->
+              </div><!-- single-slide end -->
+              <div class="single-slide">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+                  </div>
+                  <div class="testimonial-card__client">
+                    <div class="thumb">
+                      <img src="<?= $assets ?>/images/testimonial/3.jpg" alt="image">
+                    </div>
+                    <div class="content">
+                      <h6 class="name">Amir Khan</h6>
+                      <span class="designation">COO of fahaddevs</span>
+                      <div class="ratings">
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- testimonial-card end -->
+              </div><!-- single-slide end -->
+              <div class="single-slide">
+                <div class="testimonial-card">
+                  <div class="testimonial-card__content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos minus, assumenda soluta unde veritatis voluptatibus adipisci, aliquid, non officiis repudiandae rerum porro odio ea laborum veniam numquam doloribus obcaecati.</p>
+                  </div>
+                  <div class="testimonial-card__client">
+                    <div class="thumb">
+                      <img src="<?= $assets ?>/images/testimonial/4.jpg" alt="image">
+                    </div>
+                    <div class="content">
+                      <h6 class="name">Zohir Khan</h6>
+                      <span class="designation">Manager of fahaddevs</span>
+                      <div class="ratings">
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- testimonial-card end -->
+              </div><!-- single-slide end -->
+            </div>
+          </div>
+        </div><!-- row end -->
+      </div>
+    </section>
+    <!-- testimonial section end -->
+
+    <!-- team section start -->
+    <section class="pt-120 pb-120 bg_img" data-background="<?= $assets ?>/images/bg/bg-5.jpg">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section-header">
+              <h2 class="section-title"><span class="font-weight-normal">Our Expert</span> <b class="base--color">Team Members</b></h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row justify-content-center mb-none-30">
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="team-card">
+              <div class="team-card__thumb">
+                <img src="<?= $assets ?>/images/investor/1.jpg" alt="image">
+              </div>
+              <div class="team-card__content">
+                <h4 class="name mb-1">Fahad Bin Faiz</h4>
+                <span class="designation">CEO</span>
+              </div>
+            </div><!-- team-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="team-card">
+              <div class="team-card__thumb">
+                <img src="<?= $assets ?>/images/investor/2.jpg" alt="image">
+              </div>
+              <div class="team-card__content">
+                <h4 class="name mb-1">Danial K.</h4>
+                <span class="designation">CTO</span>
+              </div>
+            </div><!-- team-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="team-card">
+              <div class="team-card__thumb">
+                <img src="<?= $assets ?>/images/investor/3.jpg" alt="image">
+              </div>
+              <div class="team-card__content">
+                <h4 class="name mb-1">Lew Son</h4>
+                <span class="designation">Marketing Head</span>
+              </div>
+            </div><!-- team-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="team-card">
+              <div class="team-card__thumb">
+                <img src="<?= $assets ?>/images/investor/4.jpg" alt="image">
+              </div>
+              <div class="team-card__content">
+                <h4 class="name mb-1">Tend z Joe</h4>
+                <span class="designation">Designer</span>
+              </div>
+            </div><!-- team-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="team-card">
+              <div class="team-card__thumb">
+                <img src="<?= $assets ?>/images/investor/5.jpg" alt="image">
+              </div>
+              <div class="team-card__content">
+                <h4 class="name mb-1">Sam Joe</h4>
+                <span class="designation">Developer</span>
+              </div>
+            </div><!-- team-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="team-card">
+              <div class="team-card__thumb">
+                <img src="<?= $assets ?>/images/investor/6.jpg" alt="image">
+              </div>
+              <div class="team-card__content">
+                <h4 class="name mb-1">Alex Joe</h4>
+                <span class="designation">UX Expert</span>
+              </div>
+            </div><!-- team-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="team-card">
+              <div class="team-card__thumb">
+                <img src="<?= $assets ?>/images/investor/7.jpg" alt="image">
+              </div>
+              <div class="team-card__content">
+                <h4 class="name mb-1">Juna Sun</h4>
+                <span class="designation">SEO Expert</span>
+              </div>
+            </div><!-- team-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="team-card">
+              <div class="team-card__thumb">
+                <img src="<?= $assets ?>/images/investor/8.jpg" alt="image">
+              </div>
+              <div class="team-card__content">
+                <h4 class="name mb-1">Profed Laun</h4>
+                <span class="designation">Manager</span>
+              </div>
+            </div><!-- team-card end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- team section end -->
+
+
+    <!-- data section start -->
+    <section class="pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section-header">
+              <h2 class="section-title"><span class="font-weight-normal">Our Latest</span> <b class="base--color">Transaction</b></h2>
+              <p>Here is the log of the most recent transactions including withdraw and deposit made by our users.</p>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <ul class="nav nav-tabs custom--style-two justify-content-center" id="transactionTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="deposit-tab" data-toggle="tab" href="#deposit" role="tab" aria-controls="deposit" aria-selected="true">Latest Deposit</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="withdraw-tab" data-toggle="tab" href="#withdraw" role="tab" aria-controls="withdraw" aria-selected="false">Latest Withdraw</a>
+              </li>
+            </ul>
+
+            <div class="tab-content mt-4" id="transactionTabContent">
+              <div class="tab-pane fade show active" id="deposit" role="tabpanel" aria-labelledby="deposit-tab">
+                <div class="table-responsive--sm">
+                  <table class="table style--two">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Gateway</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/1.jpg" alt="image"></div>
+                            <span>fahaddevs</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Nov 22, 2020</td>
+                        <td data-label="Amount">$ 5000</td>
+                        <td data-label="Gateway">Stripe Hosted</td>
+                      </tr>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/2.jpg" alt="image"></div>
+                            <span>Jon Tulsa</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Dec 11, 2020</td>
+                        <td data-label="Amount">$ 1000</td>
+                        <td data-label="Gateway">Stripe Hosted</td>
+                      </tr>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/3.jpg" alt="image"></div>
+                            <span>Thomas Okeyson</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Dec 12, 2020</td>
+                        <td data-label="Amount">$ 10000</td>
+                        <td data-label="Gateway">Stripe Storefront</td>
+                      </tr>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/6.jpg" alt="image"></div>
+                            <span>Thomas Okeyson</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Dec 12, 2020</td>
+                        <td data-label="Amount">$ 6500</td>
+                        <td data-label="Gateway">Stripe Hosted</td>
+                      </tr>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/7.jpg" alt="image"></div>
+                            <span>Thomas Okeyson</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Dec 12, 2020</td>
+                        <td data-label="Amount">$ 6500</td>
+                        <td data-label="Gateway">Stripe Hosted</td>
+                      </tr>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/8.jpg" alt="image"></div>
+                            <span>Thomas Okeyson</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Dec 12, 2020</td>
+                        <td data-label="Amount">$ 6500</td>
+                        <td data-label="Gateway">Stripe Hosted</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="withdraw" role="tabpanel" aria-labelledby="withdraw-tab">
+                <div class="table-responsive--md">
+                  <table class="table style--two">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Gateway</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/1.jpg" alt="image"></div>
+                            <span>fahaddevs</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Nov 22, 2020</td>
+                        <td data-label="Amount">$ 5000</td>
+                        <td data-label="Gateway">Stripe Hosted</td>
+                      </tr>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/2.jpg" alt="image"></div>
+                            <span>Jon Tulsa</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Dec 11, 2020</td>
+                        <td data-label="Amount">$ 1000</td>
+                        <td data-label="Gateway">Stripe Hosted</td>
+                      </tr>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/3.jpg" alt="image"></div>
+                            <span>Thomas Okeyson</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Dec 12, 2020</td>
+                        <td data-label="Amount">$ 10000</td>
+                        <td data-label="Gateway">Stripe Storefront</td>
+                      </tr>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/6.jpg" alt="image"></div>
+                            <span>Thomas Okeyson</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Dec 12, 2020</td>
+                        <td data-label="Amount">$ 6500</td>
+                        <td data-label="Gateway">Stripe Hosted</td>
+                      </tr>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/7.jpg" alt="image"></div>
+                            <span>Thomas Okeyson</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Dec 12, 2020</td>
+                        <td data-label="Amount">$ 6500</td>
+                        <td data-label="Gateway">Stripe Hosted</td>
+                      </tr>
+                      <tr>
+                        <td data-label="Name">
+                          <div class="user">
+                            <div class="thumb"><img src="<?= $assets ?>/images/investor/8.jpg" alt="image"></div>
+                            <span>Thomas Okeyson</span>
+                          </div>
+                        </td>
+                        <td data-label="Date">Dec 12, 2020</td>
+                        <td data-label="Amount">$ 6500</td>
+                        <td data-label="Gateway">Stripe Hosted</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div><!-- tab-content end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- data section end -->
+
+
+    <!-- top investor section start -->
+    <section class="pt-120 pb-120 border-top-1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 col-lg-8 text-center">
+            <div class="section-header">
+              <h2 class="section-title"><span class="font-weight-normal">Our Top</span> <b class="base--color">Investor</b></h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row justify-content-center mb-none-30">
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="investor-card border-radius--5">
+              <div class="investor-card__thumb bg_img background-position-y-top" data-background="<?= $assets ?>/images/investor/1.jpg"></div>
+              <div class="investor-card__content">
+                <h6 class="name">Fahad Bin Faiz</h6>
+                <span class="amount f-size-14">Investment - $1,500,355</span>
+              </div>
+            </div><!-- investor-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="investor-card border-radius--5">
+              <div class="investor-card__thumb bg_img background-position-y-top" data-background="<?= $assets ?>/images/investor/2.jpg"></div>
+              <div class="investor-card__content">
+                <h6 class="name">Danial K</h6>
+                <span class="amount f-size-14">Investment - $1,500,355</span>
+              </div>
+            </div><!-- investor-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="investor-card border-radius--5">
+              <div class="investor-card__thumb bg_img background-position-y-top" data-background="<?= $assets ?>/images/investor/3.jpg"></div>
+              <div class="investor-card__content">
+                <h6 class="name">Lew Son</h6>
+                <span class="amount f-size-14">Investment - $1,500,355</span>
+              </div>
+            </div><!-- investor-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="investor-card border-radius--5">
+              <div class="investor-card__thumb bg_img background-position-y-top" data-background="<?= $assets ?>/images/investor/4.jpg"></div>
+              <div class="investor-card__content">
+                <h6 class="name">Tend z Joe</h6>
+                <span class="amount f-size-14">Investment - $1,500,355</span>
+              </div>
+            </div><!-- investor-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="investor-card border-radius--5">
+              <div class="investor-card__thumb bg_img background-position-y-top" data-background="<?= $assets ?>/images/investor/5.jpg"></div>
+              <div class="investor-card__content">
+                <h6 class="name">Sam Joe</h6>
+                <span class="amount f-size-14">Investment - $1,500,355</span>
+              </div>
+            </div><!-- investor-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="investor-card border-radius--5">
+              <div class="investor-card__thumb bg_img background-position-y-top" data-background="<?= $assets ?>/images/investor/6.jpg"></div>
+              <div class="investor-card__content">
+                <h6 class="name">Alex Joe</h6>
+                <span class="amount f-size-14">Investment - $1,500,355</span>
+              </div>
+            </div><!-- investor-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="investor-card border-radius--5">
+              <div class="investor-card__thumb bg_img background-position-y-top" data-background="<?= $assets ?>/images/investor/7.jpg"></div>
+              <div class="investor-card__content">
+                <h6 class="name">Juna Sun</h6>
+                <span class="amount f-size-14">Investment - $1,500,355</span>
+              </div>
+            </div><!-- investor-card end -->
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
+            <div class="investor-card border-radius--5">
+              <div class="investor-card__thumb bg_img background-position-y-top" data-background="<?= $assets ?>/images/investor/8.jpg"></div>
+              <div class="investor-card__content">
+                <h6 class="name">Profed Laun</h6>
+                <span class="amount f-size-14">Investment - $1,500,355</span>
+              </div>
+            </div><!-- investor-card end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- top investor section end -->
+
+
+    <!-- cta section start -->
+    <section class="pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8">
+            <div class="cta-wrapper bg_img border-radius--10 text-center" data-background="<?= $assets ?>/images/bg/bg-8.jpg">
+              <h2 class="title mb-3">Get Started Today With Us</h2>
+              <p>This is a Revolutionary Money Making Platform! Invest for Future in Stable Platform and Make Fast Money. Not only we guarantee the fastest and the most exciting returns on your investments, but we also guarantee the security of your investment.</p>
+              <a href="registration.html" class="cmn-btn mt-4">Join Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cta section end -->
+
+    <!-- payment brand section start -->
+    <section class="pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section-header">
+              <h2 class="section-title"><span class="font-weight-normal">Payment We</span> <b class="base--color">Accept</b></h2>
+              <p>We accept all major cryptocurrencies and fiat payment methods to make your investment process easier with our platform.</p>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="payment-slider">
+              <div class="single-slide">
+                <div class="brand-item">
+                  <img src="<?= $assets ?>/images/brand/1.png" alt="image">
+                </div><!-- brand-item end -->
+              </div>
+              <div class="single-slide">
+                <div class="brand-item">
+                  <img src="<?= $assets ?>/images/brand/2.png" alt="image">
+                </div><!-- brand-item end -->
+              </div>
+              <div class="single-slide">
+                <div class="brand-item">
+                  <img src="<?= $assets ?>/images/brand/3.png" alt="image">
+                </div><!-- brand-item end -->
+              </div>
+              <div class="single-slide">
+                <div class="brand-item">
+                  <img src="<?= $assets ?>/images/brand/4.png" alt="image">
+                </div><!-- brand-item end -->
+              </div>
+              <div class="single-slide">
+                <div class="brand-item">
+                  <img src="<?= $assets ?>/images/brand/5.png" alt="image">
+                </div><!-- brand-item end -->
+              </div>
+              <div class="single-slide">
+                <div class="brand-item">
+                  <img src="<?= $assets ?>/images/brand/6.png" alt="image">
+                </div><!-- brand-item end -->
+              </div>
+              <div class="single-slide">
+                <div class="brand-item">
+                  <img src="<?= $assets ?>/images/brand/7.png" alt="image">
+                </div><!-- brand-item end -->
+              </div>
+              <div class="single-slide">
+                <div class="brand-item">
+                  <img src="<?= $assets ?>/images/brand/8.png" alt="image">
+                </div><!-- brand-item end -->
+              </div>
+            </div><!-- payment-slider end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- payment brand section end -->
+
+    
+    <!-- blog section start -->
+    <section class="pt-120 pb-120 border-top-1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <div class="section-header">
+              <h2 class="section-title"><span class="font-weight-normal">Our Latest</span> <b class="base--color">News</b></h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row justify-content-center mb-none-30">
+          <div class="col-lg-4 col-md-6 mb-30">
+            <div class="blog-card">
+              <div class="blog-card__thumb">
+                <img src="<?= $assets ?>/images/blog/1.jpg" alt="image">
+              </div>
+              <div class="blog-card__content">
+                <h4 class="blog-card__title mb-3"><a href="#0">Laboriosam distinctio nisi debitis deleniti voluptatum corporis.</a></h4>
+                <ul class="blog-card__meta d-flex flex-wrap mb-4">
+                  <li>
+                    <i class="las la-user"></i>
+                    <a href="#0">fahaddevs</a>
+                  </li>
+                  <li>
+                    <i class="las la-calendar"></i>
+                    <a href="#0">20 Nov, 2020</a>
+                  </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Iusto eos rem ducimus nam! Optio, soluta. Laboriosam distinctio nisi debitis deleniti ducim.</p>
+                <a href="#0" class="cmn-btn btn-md mt-4">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-30">
+            <div class="blog-card">
+              <div class="blog-card__thumb">
+                <img src="<?= $assets ?>/images/blog/2.jpg" alt="image">
+              </div>
+              <div class="blog-card__content">
+                <h4 class="blog-card__title mb-3"><a href="#0">Laboriosam distinctio nisi debitis deleniti voluptatum corporis.</a></h4>
+                <ul class="blog-card__meta d-flex flex-wrap mb-4">
+                  <li>
+                    <i class="las la-user"></i>
+                    <a href="#0">fahaddevs</a>
+                  </li>
+                  <li>
+                    <i class="las la-calendar"></i>
+                    <a href="#0">20 Nov, 2020</a>
+                  </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Iusto eos rem ducimus nam! Optio, soluta. Laboriosam distinctio nisi debitis deleniti ducim.</p>
+                <a href="#0" class="cmn-btn btn-md mt-4">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-30">
+            <div class="blog-card">
+              <div class="blog-card__thumb">
+                <img src="<?= $assets ?>/images/blog/3.jpg" alt="image">
+              </div>
+              <div class="blog-card__content">
+                <h4 class="blog-card__title mb-3"><a href="#0">Laboriosam distinctio nisi debitis deleniti voluptatum corporis.</a></h4>
+                <ul class="blog-card__meta d-flex flex-wrap mb-4">
+                  <li>
+                    <i class="las la-user"></i>
+                    <a href="#0">fahaddevs</a>
+                  </li>
+                  <li>
+                    <i class="las la-calendar"></i>
+                    <a href="#0">20 Nov, 2020</a>
+                  </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Iusto eos rem ducimus nam! Optio, soluta. Laboriosam distinctio nisi debitis deleniti ducim.</p>
+                <a href="#0" class="cmn-btn btn-md mt-4">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section end -->
+
+    <!-- subscribe section start -->
+    <section class="pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="subscribe-wrapper bg_img" data-background="<?= $assets ?>/images/bg/bg-5.jpg">
+              <div class="row align-items-center">
+                <div class="col-lg-5">
+                  <h2 class="title">Subscribe Our Newsletter</h2>
+                </div>
+                <div class="col-lg-7 mt-lg-0 mt-4">
+                  <form class="subscribe-form">
+                    <input type="email" class="form-control" placeholder="Email Address">
+                    <button class="subscribe-btn"><i class="las la-envelope"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div><!-- subscribe-wrapper end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- subscribe section end -->
+
+
+    <!-- footer section start -->

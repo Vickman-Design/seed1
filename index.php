@@ -5,14 +5,44 @@ define('DOT', '.');
 require_once DOT . "/bootstrap.php";
 
 //Home page//
-$Route->add('/anthill/', function () {
+$Route->add('/seed/', function () {
     
     $Template = new Apps\Template;
-    $Template->addheader("docs.layouts.header");
-    $Template->addfooter("docs.layouts.footer");
-    $Template->assign("title","Anthill Home");
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," Home");
 
-    $Template->render("docs.index");
+    $Template->render("home");
+
+}, 'GET');
+$Route->add('/seed/about', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," Home");
+
+    $Template->render("pages.about");
+
+}, 'GET');
+$Route->add('/seed/services', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," Home");
+
+    $Template->render("pages.services");
+
+}, 'GET');
+$Route->add('/seed/contact', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," Home");
+
+    $Template->render("pages.contact");
 
 }, 'GET');
 //Home page//

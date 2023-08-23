@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
  * Copyright (C) 2014-2020 De-Golojan Technologies Ltd. (www.golojan.com)
@@ -40,12 +40,12 @@ define("session_delete_timout",30);
 define("auth_session_key","logged_in");
 define("auth_url","/auth/login");
 
-define("domain", "https://localhost/anthill/");
+define("domain", "https://localhost/seed/");
 
 define("db_host","localhost");
 define("db_user","root");
 define("db_password","");
-define("db_name","db");
+define("db_name","seed");
 define("db_port",null);
 define("db_charset","utf8");
 define("db_socket",null);
