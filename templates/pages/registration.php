@@ -3,7 +3,7 @@
 <html lang="en">
 
 <!-- Mirrored from template.viserlab.com/hyiplab/demo/registration.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Aug 2023 06:17:55 GMT -->
-<head>
+<head> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HYIPLAB - HYIP Investment HTML template</title>
