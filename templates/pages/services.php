@@ -1,8 +1,6 @@
-
-  <!-- header-section end  -->
-    
+ 
     <!-- inner hero start -->
-    <section class="inner-hero bg_img" data-background="<?= $assets ?>/images/bg/bg-1.jpg">
+    <section class="inner-hero bg_img" data-background="assets/images/bg/bg-1.jpg">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -31,7 +29,7 @@
         </div><!-- row end -->
         <div class="row justify-content-center mb-none-30">
           <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+            <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
               <h4 class="package-card__title base--color mb-2">Slivesto</h4>
               <ul class="package-card__features mt-4">
                 <li>Return 6%</li>
@@ -44,7 +42,7 @@
             </div><!-- package-card end -->
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+            <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
               <h4 class="package-card__title base--color mb-2">Life Time</h4>
               <ul class="package-card__features mt-4">
                 <li>Return 0.2%</li>
@@ -57,7 +55,7 @@
             </div><!-- package-card end -->
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+            <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
               <h4 class="package-card__title base--color mb-2">Black Horse</h4>
               <ul class="package-card__features mt-4">
                 <li>Return 5%</li>
@@ -70,7 +68,7 @@
             </div><!-- package-card end -->
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+            <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
               <h4 class="package-card__title base--color mb-2">Silver</h4>
               <ul class="package-card__features mt-4">
                 <li>Return 5%</li>
@@ -83,7 +81,7 @@
             </div><!-- package-card end -->
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+            <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
               <h4 class="package-card__title base--color mb-2">Elephant</h4>
               <ul class="package-card__features mt-4">
                 <li>Return 1.1USD</li>
@@ -96,7 +94,7 @@
             </div><!-- package-card end -->
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+            <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
               <h4 class="package-card__title base--color mb-2">Cobra</h4>
               <ul class="package-card__features mt-4">
                 <li>Return 10USD</li>
@@ -109,7 +107,7 @@
             </div><!-- package-card end -->
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+            <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
               <h4 class="package-card__title base--color mb-2">Lion</h4>
               <ul class="package-card__features mt-4">
                 <li>Return 0.2%</li>
@@ -122,7 +120,7 @@
             </div><!-- package-card end -->
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-            <div class="package-card text-center bg_img" data-background="<?= $assets ?>/images/bg/bg-4.png">
+            <div class="package-card text-center bg_img" data-background="assets/images/bg/bg-4.png">
               <h4 class="package-card__title base--color mb-2">Tiger</h4>
               <ul class="package-card__features mt-4">
                 <li>Return 0.2%</li>
@@ -140,4 +138,3 @@
     <!-- package section end  -->
 
 
-    

@@ -1,49 +1,60 @@
-<footer class="footer bg_img" data-background="<?= $assets ?>/images/bg/bg-7.jpg">
-  <div class="footer__top">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-12 text-center">
-          <a href="#0" class="footer-logo"><img src="<?= $assets ?>/images/logo.png" alt="image"></a>
-          <ul class="footer-short-menu d-flex flex-wrap justify-content-center mt-4">
-            <li><a href="./">Home</a></li>
-            <li><a href="./about">About</a></li>
-            <li><a href="./services">Services</a></li>
-            <li><a href="./contact">Contact</a></li>
+ <!-- Start Footer Area -->
+ <footer class="footer1">
+    
+     <!-- Start Footer Bottom Area -->
+     <div class="footer-area-bottom">
+         <div class="container">
+             <div class="row">
+                 <div class="col-xl-6 col-lg-6 col-md-12">
+                     <div class="copyright">
+                         <p>
+                             Copyright ©
+                             <a href="#">SEEDGLOBAL</a> All Rights Reserved
+                         </p>
+                     </div>
+                 </div>
+                 <div class="col-xl-6 col-lg-6 col-md-6">
+                     <div class="footer-menu">
+                         <ul>
+                             <li><a href="./">About</a></li>
+                             <li><a href="./plan">Plan</a></li>
+                             <li><a href="./contact">Contact</a></li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- End Footer Bottom Area -->
+ </footer>
+ <!-- End Footer Area -->
 
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer__bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 text-md-center text-center">
-          <p>© 2020 <a href="index.html" class="base--color">HYIPLAB</a>. All rights reserved</p>
-        </div>
-        <div class="col-md-6">
-          <ul class="social-link-list d-flex flex-wrap justify-content-md-end justify-content-center">
-            <li><a href="#0" data-toggle="tooltip" data-placement="top" title="facebook"><i class="lab la-facebook-f"></i></a></li>
-            <li><a href="#0" data-toggle="tooltip" data-placement="top" title="twitter"><i class="lab la-twitter"></i></a></li>
-            <li><a href="#0" data-toggle="tooltip" data-placement="top" title="pinterest"><i class="lab la-pinterest-p"></i></a></li>
-            <li><a href="#0" data-toggle="tooltip" data-placement="top" title="pinterest"><i class="lab la-pinterest-in"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- footer section end -->
-  </div> <!-- page-wrapper end -->
-    <!-- jQuery library -->
-  <script src="<?= $assets ?>/js/vendor/jquery-3.5.1.min.js"></script>
-  <!-- bootstrap js -->
-  <script src="<?= $assets ?>/js/vendor/bootstrap.bundle.min.js"></script>
-  <!-- slick slider js -->
-  <script src="<?= $assets ?>/js/vendor/slick.min.js"></script>
-  <script src="<?= $assets ?>/js/vendor/wow.min.js"></script>
-  <script src="<?= $assets ?>/js/contact.js"></script>
-  <!-- dashboard custom js -->
-  <script src="<?= $assets ?>/js/app.js"></script>
-  </body>
-</html> 
+ <!-- All JS here -->
+
+ <!-- modernizr JS -->
+ <script src="<?= $assets ?>/js/vendor/modernizr-3.5.0.min.js"></script>
+ <!-- jquery latest version -->
+ <script src="<?= $assets ?>/js/vendor/jquery-1.12.4.min.js"></script>
+ <!-- Poper js -->
+ <script src="<?= $assets ?>/js/popper.min.js"></script>
+ <!-- bootstrap js -->
+ <script src="<?= $assets ?>/js/bootstrap.min.js"></script>
+ <!-- owl.carousel js -->
+ <script src="<?= $assets ?>/js/owl.carousel.min.js"></script>
+ <!-- meanmenu js -->
+ <script src="<?= $assets ?>/js/jquery.meanmenu.js"></script>
+ <!-- Counter js -->
+ <script src="<?= $assets ?>/js/jquery.counterup.min.js"></script>
+ <!-- waypoint js -->
+ <script src="<?= $assets ?>/js/waypoints.js"></script>
+ <!-- magnific js -->
+ <script src="<?= $assets ?>/js/magnific.min.js"></script>
+ <!-- wow js -->
+ <script src="<?= $assets ?>/js/wow.min.js"></script>
+ <!-- plugins js -->
+ <script src="<?= $assets ?>/js/plugins.js"></script>
+ <!-- main js -->
+ <script src="<?= $assets ?>/js/main.js"></script>
+ </body>
+
+ </html>

@@ -1,85 +1,109 @@
-<!-- meta tags and other links -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <base href="<?= domain ?>">
-  <title><?= $title ?></title>
-  <link rel="icon" type="image/png" href="<?= $assets ?>/images/favicon.png" sizes="16x16">
-  <!-- bootstrap 4  -->
-  <link rel="stylesheet" href="<?= $assets ?>/css/vendor/bootstrap.min.css">
-  <!-- fontawesome 5  -->
-  <link rel="stylesheet" href="<?= $assets ?>/css/all.min.css">
-  <!-- line-awesome webfont -->
-  <link rel="stylesheet" href="<?= $assets ?>/css/line-awesome.min.css">
-  <link rel="stylesheet" href="<?= $assets ?>/css/vendor/animate.min.css">
-  <!-- slick slider css -->
-  <link rel="stylesheet" href="<?= $assets ?>/css/vendor/slick.css">
-  <link rel="stylesheet" href="<?= $assets ?>/css/vendor/dots.css">
-  <!-- dashdoard main css -->
-  <link rel="stylesheet" href="<?= $assets ?>/css/main.css">
-</head>
-  <body>
-    <div class="preloader">
-      <div class="preloader-container">
-        <span class="animated-preloader"></span>
-      </div>
-    </div>
-  
-    <!-- scroll-to-top start -->
-    <div class="scroll-to-top">
-      <span class="scroll-icon">
-        <i class="fa fa-rocket" aria-hidden="true"></i>
-      </span>
-    </div>
-    <!-- scroll-to-top end -->
+<!doctype html>
+<html class="no-js" lang="en">
 
-  <div class="full-wh">
-    <!-- STAR ANIMATION -->
-    <div class="bg-animation">
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
-      <div id='stars4'></div>
-    </div><!-- / STAR ANIMATION -->
-  </div>
-  <div class="page-wrapper">
-      <!-- header-section start  -->
-  <header class="header">
-    <div class="header__bottom">
-      <div class="container">
-        <nav class="navbar navbar-expand-xl p-0 align-items-center">
-          <a class="site-logo site-title" href="index.html"><img src="<?= $assets ?>/images/logo.png" alt="site-logo"></a>
-          <ul class="account-menu mobile-acc-menu">
-            <li class="icon">
-              <a href="login.html"><i class="las la-user"></i></a>
-            </li>
-          </ul> 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="menu-toggle"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav main-menu m-auto">
-              <li><a href="./">Home</a></li>
-              <li><a href="./about">About Us</a></li>
-              <li><a href="./services">Services</a></li>
-              <li><a href="./contact">Contact</a></li>
-            </ul>
-            <div class="nav-right">
-              <ul class="account-menu ml-3">
-                <li class="icon">
-                  <a href="login.html"><i class="las la-user"></i></a>
-                </li>
-              </ul> 
-              <select class="select d-inline-block w-auto ml-xl-3">
-                <option>Eng</option>
-                <option>Ban</option>
-                <option>Hin</option>
-              </select>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title><?= $title?></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon.png and root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?= $assets ?>/img/logo/favicon.ico">
+
+    <!-- All css here -->
+
+    <!-- bootstrap 4.0 css -->
+    <link rel="stylesheet" href="<?= $assets ?>/css/bootstrap.min.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="<?= $assets ?>/css/owl.carousel.min.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="<?= $assets ?>/css/animate.min.css">
+    <!-- magnific css -->
+    <link rel="stylesheet" href="<?= $assets ?>/css/magnific-popup.css">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="<?= $assets ?>/css/meanmenu.min.css">
+    <!-- Icon font css -->
+    <link rel="stylesheet" href="<?= $assets ?>/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?= $assets ?>/css/themify-icons.css">
+    <link rel="stylesheet" href="<?= $assets ?>/css/flaticon.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="<?= $assets ?>/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="<?= $assets ?>/css/responsive.css">
+</head>
+
+
+<body>
+    <!-- preloader  -->
+    <div id="preloader"></div>
+    <!-- Start header -->
+    <header class="header-one">
+        <!-- Start top bar -->
+        <div class="topbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-8 col-sm-8 col-xs-12">
+                        <div class="topbar-left">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-envelope"></i> info@custom23.com</a></li>
+                                <li><a href="#"><i class="fa fa-clock-o"></i> Live support</a></li>
+                            </ul>  
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="topbar-right">
+                            <select class="select d-inline-block">
+                                <option>Eng</option>
+                                <option>Esp</option>
+                                <option>Fra</option>
+                                <option>Deu</option>
+                            </select>
+                            <ul>
+                                <li><a href="./login"><img src="<?= $assets ?>/img/icon/login.png" alt="">Login</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div> 
-        </nav>
-      </div>
-    </div><!-- header__bottom end -->
-  </header>
+        </div>
+        <!-- End top bar -->
+        <!-- Start Header Menu -->
+        <div id="sticker" class="header-menu-area header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-3 d-flex align-items-center">
+                        <div class="logo">
+                            <a href="./"><img src="<?= $assets ?>/img/logo/loggo.png" alt=""  width="80px" height="60px"></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10 col-md-9">
+                        <div class="header-right">
+                            <a href="./registration" class="hd-btn">Signup</a>
+                        </div>
+                        <div class="header_menu f-right">
+                            <nav id="mobile-menu">
+                                <ul class="main-menu">
+                                    <li><a href="./">Home</a></li>
+                                    <li><a href="./about">About</a></li>
+
+                                    <li><a href="./plan">Plan</a></li>
+
+                                    <li><a href="./user-panel">Dashboard</a></li>
+                                    <li class="contact"><a href="./contact">Contact</a>
+
+                                   
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Menu -->
+    </header>
+    <!-- End header area -->

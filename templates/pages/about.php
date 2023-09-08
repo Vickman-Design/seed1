@@ -1,306 +1,482 @@
-
-    <!-- inner hero start -->
-    <section class="inner-hero bg_img" data-background="<?= $assets ?>/images/bg/bg-1.jpg">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 class="page-title">About Us</h2>
-            <ul class="page-breadcrumb">
-              <li><a href="index.html">Home</a></li>
-              <li>About</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- inner hero end -->
-
-
-    <!-- how work section start -->
-    <section class="pt-120 pb-120 bg_img" data-background="<?= $assets ?>/images/bg/bg-5.jpg">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <div class="section-header">
-              <h2 class="section-title"><span class="font-weight-normal">How</span> <b class="base--color">Hyiplab</b> <span class="font-weight-normal">Works</span></h2>
-              <p>Get involved in our tremendous platform and Invest. We will utilize your money and give you profit in your wallet automatically.</p>
-            </div>
-          </div>
-        </div><!-- row end -->
-        <div class="row justify-content-center mb-none-30">
-          <div class="col-lg-4 col-md-6 work-item mb-30">
-            <div class="work-card text-center">
-              <div class="work-card__icon">
-                <i class="las la-user base--color"></i>
-                <span class="step-number">01</span>
-              </div>
-              <div class="work-card__content">
-                <h4 class="base--color mb-3">Create Account</h4>
-              </div>
-            </div><!-- work-card end -->
-          </div>
-          <div class="col-lg-4 col-md-6 work-item mb-30">
-            <div class="work-card text-center">
-              <div class="work-card__icon">
-                <i class="las la-hand-holding-usd base--color"></i>
-                <span class="step-number">02</span>
-              </div>
-              <div class="work-card__content">
-                <h4 class="base--color mb-3">Invest To Plan</h4>
-              </div>
-            </div><!-- work-card end -->
-          </div>
-          <div class="col-lg-4 col-md-6 work-item mb-30">
-            <div class="work-card text-center">
-              <div class="work-card__icon">
-                <i class="las la-wallet base--color"></i>
-                <span class="step-number">03</span>
-              </div>
-              <div class="work-card__content">
-                <h4 class="base--color mb-3">Get Profit</h4>
-              </div>
-            </div><!-- work-card end -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- how work section end  -->
-
-
-    <!-- about section start -->
-    <section class="about-section pt-120 pb-120 bg_img" data-background="<?= $assets ?>/images/bg/bg-2.jpg">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-6">
-            <div class="about-content">
-              <h2 class="section-title mb-3"><span class="font-weight-normal">About</span> <b class="base--color">Us</b></h2>
-              <p>We are an international financial company engaged in investment activities, which are related to trading on financial markets and cryptocurrency exchanges performed by qualified professional traders.</p>
-              <p class="mt-4">Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service, allowing us to automate and simplify the relations between the investors and the trustees. We work towards increasing your profit margin by profitable investment. We look forward to you being part of our community.</p>
-              <a href="#0" class="cmn-btn mt-4">MORE INFO</a>
-            </div><!-- about-content end -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about section end -->
-
-    <!-- team section start -->
-    <section class="pt-120 pb-120 bg_img" data-background="<?= $assets ?>/images/bg/bg-5.jpg">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <div class="section-header">
-              <h2 class="section-title"><span class="font-weight-normal">Our Expert</span> <b class="base--color">Team Members</b></h2>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse voluptatum eaque earum quos quia? Id aspernatur ratione, voluptas nulla rerum laudantium neque ipsam eaque</p>
-            </div>
-          </div>
-        </div><!-- row end -->
-        <div class="row justify-content-center mb-none-30">
-          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-            <div class="team-card">
-              <div class="team-card__thumb">
-                <img src="<?= $assets ?>/images/investor/1.jpg" alt="image">
-              </div>
-              <div class="team-card__content">
-                <h4 class="name mb-1">Fahad Bin Faiz</h4>
-                <span class="designation">CEO</span>
-              </div>
-            </div><!-- team-card end -->
-          </div>
-          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-            <div class="team-card">
-              <div class="team-card__thumb">
-                <img src="<?= $assets ?>/images/investor/2.jpg" alt="image">
-              </div>
-              <div class="team-card__content">
-                <h4 class="name mb-1">Danial K.</h4>
-                <span class="designation">CTO</span>
-              </div>
-            </div><!-- team-card end -->
-          </div>
-          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-            <div class="team-card">
-              <div class="team-card__thumb">
-                <img src="<?= $assets ?>/images/investor/3.jpg" alt="image">
-              </div>
-              <div class="team-card__content">
-                <h4 class="name mb-1">Lew Son</h4>
-                <span class="designation">Marketing Head</span>
-              </div>
-            </div><!-- team-card end -->
-          </div>
-          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-            <div class="team-card">
-              <div class="team-card__thumb">
-                <img src="<?= $assets ?>/images/investor/4.jpg" alt="image">
-              </div>
-              <div class="team-card__content">
-                <h4 class="name mb-1">Tend z Joe</h4>
-                <span class="designation">Designer</span>
-              </div>
-            </div><!-- team-card end -->
-          </div>
-          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-            <div class="team-card">
-              <div class="team-card__thumb">
-                <img src="<?= $assets ?>/images/investor/5.jpg" alt="image">
-              </div>
-              <div class="team-card__content">
-                <h4 class="name mb-1">Sam Joe</h4>
-                <span class="designation">Developer</span>
-              </div>
-            </div><!-- team-card end -->
-          </div>
-          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-            <div class="team-card">
-              <div class="team-card__thumb">
-                <img src="<?= $assets ?>/images/investor/6.jpg" alt="image">
-              </div>
-              <div class="team-card__content">
-                <h4 class="name mb-1">Alex Joe</h4>
-                <span class="designation">UX Expert</span>
-              </div>
-            </div><!-- team-card end -->
-          </div>
-          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-            <div class="team-card">
-              <div class="team-card__thumb">
-                <img src="<?= $assets ?>/images/investor/7.jpg" alt="image">
-              </div>
-              <div class="team-card__content">
-                <h4 class="name mb-1">Juna Sun</h4>
-                <span class="designation">SEO Expert</span>
-              </div>
-            </div><!-- team-card end -->
-          </div>
-          <div class="col-xl-3 col-lg-4 col-sm-6 mb-30">
-            <div class="team-card">
-              <div class="team-card__thumb">
-                <img src="<?= $assets ?>/images/investor/8.jpg" alt="image">
-              </div>
-              <div class="team-card__content">
-                <h4 class="name mb-1">Profed Laun</h4>
-                <span class="designation">Manager</span>
-              </div>
-            </div><!-- team-card end -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- team section end -->
-
-    <!-- faq section start -->
-    <section class="pt-120 pb-120">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-center">
-            <div class="section-header">
-              <h2 class="section-title"><span class="font-weight-normal">Frequently Asked</span> <b class="base--color">Questions</b></h2>
-              <p>We answer some of your Frequently Asked Questions regarding our platform. If you have a query that is not answered here, Please contact us.</p>
-            </div>
-          </div>
-        </div><!-- row end -->
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="accordion cmn-accordion" id="accordionExample">
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <i class="las la-question-circle"></i>
-                      <span>When can I deposit/withdraw from my Investment account?</span>
-                    </button>
-                  </h2>
-                </div>
-            
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform. Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      <i class="las la-question-circle"></i>
-                      <span>How do I check my account balance?</span>
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                  <div class="card-body">
-                    You can see this anytime on your accounts dashboard. You can see this anytime on your accounts dashboard.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      <i class="las la-question-circle"></i>
-                      <span>I forgot my password, what should I do?</span>
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Visit the password reset page, type in your email address and click the `Reset` button. Visit the password reset page, type in your email address and click the `Reset` button.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingFour">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      <i class="las la-question-circle"></i>
-                      <span>How will I know that the withdrawal has been successful?</span>
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                  <div class="card-body">
-                    You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you. You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingFive">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                      <i class="las la-question-circle"></i>
-                      <span>How much can I withdraw?</span>
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                  <div class="card-body">
-                    You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions. You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions.
-                  </div>
-                </div>
-              </div>
+<main>
+  <!-- Start Breadcrumb Area -->
+  <div class="page-area bread-pd">
+    <div class="breadcumb-overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="breadcrumb-title text-center">
+            <h2>About Us</h2>
+            <div class="bread-come">
+              <nav aria-label="breadcrumb ">
+                <ol class="breadcrumb purple lighten-4 justify-content-center">
+                  <li class="breadcrumb-items"><a class="black-text" href="./">Home</a><i class="ti-angle-right" aria-hidden="true"></i></li>
+                  <li class="breadcrumb-items"><a class="black-text" href="./about">About us</a></li>
+                </ol>
+              </nav>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- faq section end -->
+    </div>
+  </div>
+  <!-- End Breadcrumb Area -->
+  <!-- End About Area -->
+  <div class="about-page-area bg-color fix area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <div class="section-headline text-center">
+            <h2>Seed Global Capital</h2>
+            <p>Beyond Agriculture</p>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-xl-6 col-lg- col-md-12">
+          <div class="about-page-image">
+            <img src="<?= $assets ?>/img/about/ab.jpg" alt="">
+          </div>
+        </div>
+        <!-- Start services -->
+        <div class="col-xl-6 col-lg-6 col-md-12">
+          <div class="about-wraper">
+            <div class="about-page-text">
+              <h2>About Us</h2>
+              <p>Seed Global Capital is a multifaceted company dedicated to fostering positive change through its diverse portfolio of services. At its core, Seed Global Capital specializes in agricultural investment, which encompasses the acquisition, storage, and trading of various essential agro products such as millet, palm oil, rice, beans, and an array of grains and tuber crops. This agricultural arm of the company plays a pivotal role in the global food supply chain, ensuring the availability and efficient distribution of crucial food staples.</p>
+              <p>Beyond agriculture, Seed Global Capital is deeply involved in real estate ventures, contributing to the growth and development of urban and rural areas. This diversification provides a stable income source and complements its agricultural activities.</p>
+              <p>Moreover, the company's commitment to youth empowerment is commendable. Through various programs, it not only creates employment opportunities but also imparts valuable skills to the youth. This aligns with SDG 8 - "Decent Work and Economic Growth," which seeks to promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all. In essence, Seed Global Capital is not just a business; it's a force for positive change. Through its agricultural investments, real estate endeavors, and youth empowerment initiatives, it contributes significantly to the realization of several Sustainable Development Goals, making the world a better place while simultaneously ensuring the company's growth and sustainability.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Start services -->
+      </div>
+    </div>
+  </div>
+  <!-- Start Choose Area -->
+  <div class="choose-service-area bg-color area-padding-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Why choose us</h2>
+            <p>One of Seed Global Capital's flagship initiatives is its Agro Investment Program, which is designed to promote sustainable agricultural practices and enhance food security. This program operates on several fronts:
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Start About -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="choose-services ">
+            <div class="choose-top align-items-center">
+              <h4>Investment in Agriculture</h4>
+            </div>
+            <div class="choose-content">
+              <p>Seed Global Capital invests in the cultivation, harvesting, and processing of agro products. By doing so, it not only contributes to the agricultural sector's growth but also helps in stabilizing prices and ensuring a steady supply of these commodities.
 
-    <!-- cta section start -->
-    <section class="pb-120">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-8">
-            <div class="cta-wrapper bg_img border-radius--10 text-center" data-background="<?= $assets ?>/images/bg/bg-8.jpg">
-              <h2 class="title mb-3">Get Started Today With Us</h2>
-              <p>This is a Revolutionary Money Making Platform! Invest for Future in Stable Platform and Make Fast Money. Not only we guarantee the fastest and the most exciting returns on your investments, but we also guarantee the security of your investment.</p>
-              <a href="registration.html" class="cmn-btn mt-4">Join Us</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Start About -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="choose-services ">
+            <div class="choose-top align-items-center">
+              <h4>Sustainability</h4>
+            </div>
+            <div class="choose-content">
+              <p>The company prioritizes sustainable agricultural practices, emphasizing responsible land use, water management, and eco-friendly farming techniques. This commitment aligns with Sustainable Development Goal (SDG) 2 - "Zero Hunger," which aims to end hunger, achieve food security, and promote sustainable agriculture.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Start services -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="choose-services ">
+            <div class="choose-top align-items-center">
+              <h4>Storage and Distribution</h4>
+            </div>
+            <div class="choose-content">
+              <p>The company's strategic storage facilities guarantee the preservation of agro products, reducing post-harvest losses and ensuring that these goods are available year-round. This is crucial for meeting the nutritional needs of communities and markets.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Start services -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="choose-services">
+            <div class="choose-top align-items-center">
+              <h4>Market Access</h4>
+            </div>
+            <div class="choose-content">
+              <p>Seed Global Capital actively participates in trading agro products, facilitating their movement from regions of surplus to areas of demand. This not only benefits farmers but also strengthens the entire value chain</p>
+            </div>
+          </div>
+        </div>
+        <!-- Start services -->
+
+      </div>
+    </div>
+  </div>
+  <!-- End Choose area -->
+
+
+  <!-- Team area start -->
+  <div class="team-area bg-color-2 area-padding-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <div class="section-headline text-center">
+            <h2>Team Members</h2>
+            <p>Help agencies to define their new business objectives and then create professional software.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Single team member -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="single-member">
+            <div class="team-img">
+              <a href="#">
+                <img src="<?= $assets ?>/img/team/t1.jpg" alt="">
+              </a>
+            </div>
+            <div class="team-content">
+              <h4><a href="#">Hamilton</a></h4>
+              <p>CEO</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single team member -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="single-member">
+            <div class="team-img">
+              <a href="#">
+                <img src="<?= $assets ?>/img/team/t2.jpg" alt="">
+              </a>
+            </div>
+            <div class="team-content">
+              <h4><a href="#">Mickhel</a></h4>
+              <p>Marketing head</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single team member -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="single-member">
+            <div class="team-img">
+              <a href="#">
+                <img src="<?= $assets ?>/img/team/t3.jpg" alt="">
+              </a>
+            </div>
+            <div class="team-content">
+              <h4><a href="#">Arnold</a></h4>
+              <p>developer</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single team member -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="single-member">
+            <div class="team-img">
+              <a href="#">
+                <img src="<?= $assets ?>/img/team/t4.jpg" alt="">
+              </a>
+            </div>
+            <div class="team-content">
+              <h4><a href="#">Gonjamul</a></h4>
+              <p>Social marketer</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single team member -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="single-member">
+            <div class="team-img">
+              <a href="#">
+                <img src="<?= $assets ?>/img/team/t5.jpg" alt="">
+              </a>
+            </div>
+            <div class="team-content">
+              <h4><a href="#">Shopia</a></h4>
+              <p>designer</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single team member -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="single-member">
+            <div class="team-img">
+              <a href="#">
+                <img src="<?= $assets ?>/img/team/t6.jpg" alt="">
+              </a>
+            </div>
+            <div class="team-content">
+              <h4><a href="#">Anderson</a></h4>
+              <p>Director</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single team member -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="single-member">
+            <div class="team-img">
+              <a href="#">
+                <img src="<?= $assets ?>/img/team/t7.jpg" alt="">
+              </a>
+            </div>
+            <div class="team-content">
+              <h4><a href="#">jenia</a></h4>
+              <p>Social marketer</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single team member -->
+        <div class="col-xl-3 col-lg-3 col-md-6">
+          <div class="single-member">
+            <div class="team-img">
+              <a href="#">
+                <img src="<?= $assets ?>/img/team/t8.jpg" alt="">
+              </a>
+            </div>
+            <div class="team-content">
+              <h4><a href="#">Ronald</a></h4>
+              <p>developer</p>
+            </div>
+          </div>
+        </div>
+        <!-- Single team member -->
+      </div>
+    </div>
+  </div>
+  <!-- team area end -->
+  <!-- Start FAQ area -->
+  <div class="faq-area bg-color area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <div class="section-headline text-center">
+            <h2>Important Faq</h2>
+            <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Start Column Start -->
+        <div class="col-xl-6 col-lg-6 col-md-6">
+          <div class="company-faq-left">
+            <div class="faq_inner">
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header white-bg" id="headingOne">
+                    <h4 class="faq-top-text">
+                      <button class="faq-accordion-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        1. We are the best invest platform in the world?
+                      </button>
+                    </h4>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show " aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being .
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header white-bg" id="headingTwo">
+                    <h4 class="faq-top-text">
+                      <button class="faq-accordion-btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2. World class creative experts team member?
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being .
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header white-bg" id="headingThree">
+                    <h4 class="faq-top-text">
+                      <button class="faq-accordion-btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        3. Clients satisfaction make company value?
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                      When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being .
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header white-bg" id="headingFour">
+                    <h4 class="faq-top-text">
+                      <button class="faq-accordion-btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        4. How to successful our business plan?
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                      When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being .
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header white-bg" id="headingFive">
+                    <h4 class="faq-top-text">
+                      <button class="faq-accordion-btn collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        5. How to possible to invest to profit?
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                      When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being .
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End FAQ -->
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6">
+          <div class="company-faq">
+            <div class="faq_inner">
+              <div id="accordion_2">
+                <div class="card">
+                  <div class="card-header white-bg" id="headingSix">
+                    <h4 class="faq-top-text">
+                      <button class="faq-accordion-btn collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        6. We are the best clean platform in the world?
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion_2">
+                    <div class="card-body">
+                      When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being .
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header white-bg" id="headingSeven">
+                    <h4 class="faq-top-text">
+                      <button class="faq-accordion-btn collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        7. World class creative experts team member?
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion_2">
+                    <div class="card-body">
+                      When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being .
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header white-bg" id="headingEight">
+                    <h4 class="faq-top-text">
+                      <button class="faq-accordion-btn collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        8. Clients satisfaction make company value?
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion_2">
+                    <div class="card-body">
+                      When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being .
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header white-bg" id="headingNine">
+                    <h4 class="faq-top-text">
+                      <button class="faq-accordion-btn collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        9. How to successful our business plan?
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion_2">
+                    <div class="card-body">
+                      When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being .
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header white-bg" id="headingTen">
+                    <h4 class="faq-top-text">
+                      <button class="faq-accordion-btn collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        10. How to change you life investment?
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion_2">
+                    <div class="card-body">
+                      When replacing a multi-lined selection of text, the generated dummy text maintains the amount of lines. When replacing a selection of text within a single line, the amount of words is roughly being .
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End FAQ -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End FAQ area -->
+  <!-- Start Subscribe area -->
+  <div class="subscribe-area bg-color">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+          <div class="subscribe-inner">
+            <div class="subdcribe-content">
+              <div class="section-headline text-center">
+                <h2>Payment methods</h2>
+                <p>Help agencies to define their new business objectives and then create professional software.</p>
+              </div>
+              <div class="subs-form">
+                <form id="contactForm" method="POST" action="https://rockstheme.com/rocks/live-goldhyip/contact.php" class="contact-form">
+                  <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                  <button type="submit" id="submit" class="add-btn">Subscribe</button>
+                </form>
+              </div>
+              <div class="brand-content">
+                <div class="brand-carousel owl-carousel">
+                  <div class="single-brand-item">
+                    <a href="#"><img src="img/brand/1.png" alt=""></a>
+                  </div>
+                  <div class="single-brand-item">
+                    <a href="#"><img src="img/brand/2.png" alt=""></a>
+                  </div>
+                  <div class="single-brand-item">
+                    <a href="#"><img src="img/brand/3.png" alt=""></a>
+                  </div>
+                  <div class="single-brand-item">
+                    <a href="#"><img src="img/brand/4.png" alt=""></a>
+                  </div>
+                  <div class="single-brand-item">
+                    <a href="#"><img src="img/brand/5.png" alt=""></a>
+                  </div>
+                  <div class="single-brand-item">
+                    <a href="#"><img src="img/brand/6.png" alt=""></a>
+                  </div>
+                  <div class="single-brand-item">
+                    <a href="#"><img src="img/brand/7.png" alt=""></a>
+                  </div>
+                  <div class="single-brand-item">
+                    <a href="#"><img src="img/brand/8.png" alt=""></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- cta section end -->
-
-    
-    <!-- footer section start -->
+    </div>
+  </div>
+  <!-- End Subscribe area -->
+</main>
