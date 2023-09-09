@@ -1,48 +1,44 @@
 
-  <div class="page-wrapper">
-
-    <!-- account section start -->
-    <div class="account-section bg_img" data-background="<?= $assets ?>/images/bg/bg-5.jpg">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-5 col-lg-7">
-            <div class="account-card">
-              <div class="account-card__header bg_img overlay--one" data-background="<?= $assets ?>/images/bg/bg-6.jpg">
-                <h2 class="section-title">Welcome to <span class="base--color">HYIPLAB</span></h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus distinctio deserunt impedit similique debitis voluptatum enim.</p>
-              </div>
-              <div class="account-card__body">
-                <h3 class="text-center">Login</h3>
-                <form class="mt-4">
-                  <div class="form-group">
-                    <label>User Name</label>
-                    <input type="text" class="form-control" placeholder="Enter user name">
-                  </div>
-                  <div class="form-group">
-                    <label>Password</label>
-                    <input type="email" class="form-control" placeholder="Enter password">
-                  </div>
-                  <div class="form-row">
-                    <div class="col-sm-6">
-                      <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Remmber me</label>
-                      </div>
+<body>
+    <!-- preloader  -->
+    <div id="preloader"></div>
+    <!-- Start Slider Area -->
+    <div class="login-area area-padding fix">
+        <div class="login-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center text-center ">
+                <div class="col-xl-6 col-lg-6 col-md-8">
+                    <div class="login-form">
+                        <h4 class="login-title text-center">Login</h4>
+                        <form id="contactForm" method="POST" action="./dashboard" class="log-form">
+                            <input type="text" id="name" class="form-control" placeholder="Username" required data-error="Please enter your name">
+                            <input type="password" id="msg_subject" class="form-control" placeholder="Password" required data-error="Please enter your message subject">
+                            <div class="check-group">
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">Remember me</label>
+                                </div>
+                                <a class="text-muted" href="./">Forgot password?</a>
+                            </div>
+                            <button type="submit" id="submit" class="slide-btn login-btn">Login</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                            <div class="clearfix"></div>
+                            <div class="clear"></div>
+                            <div class="separetor text-center"><span>Or with Login</span></div>
+                            <div class="sign-icon">
+                                <ul>
+                                    <li><a class="facebook" href="./"><i class="ti-facebook"></i></a></li>
+                                    <li><a class="twitter" href="./"><i class="ti-twitter"></i></a></li>
+                                    <li><a class="instagram" href="./"><i class="ti-instagram"></i></a></li>
+                                    <li><a class="google" href="./"><i class="ti-google"></i></a></li>
+                                </ul>
+                                <div class="acc-not">have an account?  <a href="./registration">Signup</a></div>
+                            </div>
+                        </form> 
                     </div>
-                    <div class="col-sm-6 text-sm-right">
-                      <p class="f-size-14">Haven't an account? <a href="registration.html" class="base--color">Sign Up</a></p>
-                    </div>
-                  </div>
-                  <div class="mt-3">
-                    <button class="cmn-btn">Login Now</button>
-                  </div>
-                </form>
-              </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
+         </div>
     </div>
-    <!-- account section end -->
+    <!-- End Slider Area -->
 
-  
+    <!-- All JS here -->

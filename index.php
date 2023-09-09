@@ -25,14 +25,14 @@ $Route->add('/seed/about', function () {
     $Template->render("pages.about");
 
 }, 'GET');
-$Route->add('/seed/services', function () {
+$Route->add('/seed/plan', function () {
     
     $Template = new Apps\Template;
     $Template->addheader("layouts.header");
     $Template->addfooter("layouts.footer");
-    $Template->assign("title"," Home");
+    $Template->assign("title"," Investment Plan");
 
-    $Template->render("pages.services");
+    $Template->render("pages.plan");
 
 }, 'GET');
 $Route->add('/seed/contact', function () {
@@ -43,6 +43,26 @@ $Route->add('/seed/contact', function () {
     $Template->assign("title"," Home");
 
     $Template->render("pages.contact");
+
+}, 'GET');
+$Route->add('/seed/login', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," Login");
+
+    $Template->render("pages.login");
+
+}, 'GET');
+$Route->add('/seed/registration', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," SignUp");
+
+    $Template->render("pages.registration");
 
 }, 'GET');
 //Home page//

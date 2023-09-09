@@ -61,7 +61,7 @@
                             <p>Seed Global Capital is a multifaceted company dedicated to fostering positive change through its diverse portfolio of services. At its core, Seed Global Capital specializes in agricultural investment, which encompasses the acquisition, storage, and trading of various essential agro products such as millet, palm oil, rice, beans, and an array of grains and tuber crops. This agricultural arm of the company plays a pivotal role in the global food supply chain, ensuring the availability and efficient distribution of crucial food staples.</p>
                             <p>Beyond agriculture, Seed Global Capital is deeply involved in real estate ventures, contributing to the growth and development of urban and rural areas. This diversification provides a stable income source and complements its agricultural activities.</p>
                             <div class="price-btn">
-                                <a class="blue" href="./about">Invest Now</a>
+                                <a class="blue" href="./about">Learn More</a>
                             </div>
                         </div>
                     </div>

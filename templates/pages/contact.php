@@ -1,93 +1,144 @@
-  
-    <!-- inner hero start -->
-    <section class="inner-hero bg_img" data-background="<?= $assets ?>/images/bg/bg-1.jpg">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2 class="page-title">Contact Us</h2>
-            <ul class="page-breadcrumb">
-              <li><a href="./">Home</a></li>
-              <li>Contact</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- inner hero end -->
 
-
-    <!-- contact section start -->
-    <section class="pt-120 pb-120">
-      <div class="container">
-        <div class="contact-wrapper">
-          <div class="row">
-            <div class="col-lg-6 contact-thumb bg_img" data-background="<?= $assets ?>/images/bg/bg-1.jpg"></div>
-            <div class="col-lg-6 contact-form-wrapper">
-              <h2 class="font-weight-bold">Contact.</h2>
-              <h2 class="font-weight-bold">Get in touch.</h2>
-              <span>Leave us a message</span>
-              <form class="contact-form mt-4">
-                <div class="form-row">
-                  <div class="form-group col-lg-6">
-                    <input type="text" name="contact-name" placeholder="Full Name" class="form-control">
-                  </div>
-                  <div class="form-group col-lg-6">
-                    <input type="email" name="contact-name" placeholder="Email Address" class="form-control">
-                  </div>
-                  <div class="form-group col-lg-12">
-                    <textarea class="form-control" placeholder="Message"></textarea>
-                  </div>
-                  <div class="col-lg-12">
-                    <button type="submit" class="cmn-btn">Send Message</button>
-                  </div>
+    <!-- End header area -->
+    <main>
+    <!-- Start Breadcrumb Area -->
+        <div class="page-area bread-pd">
+            <div class="breadcumb-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="breadcrumb-title text-center">
+                            <h2>Contact us</h2>
+                            <div class="bread-come">
+                                <nav aria-label="breadcrumb ">
+                                    <ol class="breadcrumb purple lighten-4 justify-content-center">
+                                        <li class="breadcrumb-items"><a class="black-text" href="#">Home</a><i class="ti-angle-right"
+                                            aria-hidden="true"></i></li>
+                                        <li class="breadcrumb-items"><a class="black-text" href="#">Contact us</a></li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </form>
             </div>
-          </div>
-        </div><!-- contact-wrapper end -->
-      </div>
-      <div class="container pt-120">
-        <div class="row justify-content-center">
-          <div class="col-lg-10 mb-50">
-            <h2 class="font-weight-bold">Quick</h2>
-            <h2 class="font-weight-bold">Support.</h2>
-            <span>You can get all information</span>
-          </div>
-          <div class="col-lg-10">
-            <div class="row mb-none-30">
-              <div class="col-md-4 col-sm-6 mb-30">
-                <div class="contact-item">
-                  <i class="fas fa-phone-alt"></i>
-                  <h5 class="mt-2">Call Us</h5>
-                  <div class="mt-4">
-                    <p><a href="tel:5454458">+658 4584584</a></p>
-                    <p><a href="tel:5454458">+985 8724584</a></p>
-                  </div>
-                </div><!-- contact-item end -->
-              </div>
-              <div class="col-md-4 col-sm-6 mb-30">
-                <div class="contact-item">
-                  <i class="fas fa-envelope"></i>
-                  <h5 class="mt-2">Mail Us</h5>
-                  <div class="mt-4">
-                    <p><a href="http://template.viserlab.com/cdn-cgi/l/email-protection#7317161e1c331e121a1f5d101c1e"><span class="__cf_email__" data-cfemail="ddb9b8b0b29daea8adadb2afa9f3beb2b0">[email&#160;protected]</span></a></p>
-                    <p><a href="http://template.viserlab.com/cdn-cgi/l/email-protection#0763626a68476a666e6b2964686a"><span class="__cf_email__" data-cfemail="d0b4b5bdbf90a3a5a0a0bfa2a4feb3bfbd">[email&#160;protected]</span></a></p>
-                  </div>
-                </div><!-- contact-item end -->
-              </div>
-              <div class="col-md-4 col-sm-6 mb-30">
-                <div class="contact-item">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <h5 class="mt-2">Visit Us</h5>
-                  <div class="mt-4">
-                    <p>#65 Street, Melborne 1265, Australia</p>
-                  </div>
-                </div><!-- contact-item end -->
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <!-- contact section end -->
-    
+        <!-- End Breadcrumb Area -->
+        <!-- Start contact Area -->
+        <div class="contact-page bg-color area-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="contact-left">
+                            <div class="contact-image">
+                                <img src="img/about/ab.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End contact icon -->
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="contact-form">
+                           <form id="contactForm" method="POST" action="https://rockstheme.com/rocks/live-goldhyip/contact.php" class="contact-form">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                                        <button type="submit" id="submit" class="contact-btn">Submit</button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                        <div class="clearfix"></div>
+                                    </div>   
+                                </div>   
+                                
+                            </form>  
+                        </div>
+                    </div>
+                    <!-- End contact Form -->
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="contact-single">
+                            <h3>Community club</h3>
+                            <p> When replacing a selection of text within a single line, the amount of words is roughly being maintained.multi-lined selection of text</p>
+                            <a class="club-btn" href="#">Join us</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="contact-single">
+                            <h3>Members club</h3>
+                            <p> When replacing a selection of text within a single line, the amount of words is roughly being maintained.multi-lined selection of text</p>
+                            <a class="club-btn" href="#">Join us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact Area -->
+        <!-- Start Subscribe area -->
+        <div class="subscribe-area bg-color">
+            <div class="container">
+                <div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12">
+						<div class="subscribe-inner">
+						    <div class="subdcribe-content">
+                                <div class="section-headline text-center">
+                                    <h2>Payment methods</h2>
+                                    <p>Help agencies to define their new business objectives and then create professional software.</p>
+                                </div>
+                                <div class="subs-form">
+                                    <form id="contactForm" method="POST" action="https://rockstheme.com/rocks/live-goldhyip/contact.php" class="contact-form">
+                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                        <button type="submit" id="submit" class="add-btn">Subscribe</button>
+                                    </form>  
+                                </div>
+                                <div class="brand-content">
+                                    <div class="brand-carousel owl-carousel">
+                                        <div class="single-brand-item">
+                                            <a href="#"><img src="img/brand/1.png" alt=""></a>
+                                        </div>
+                                        <div class="single-brand-item">
+                                            <a href="#"><img src="img/brand/2.png" alt=""></a>
+                                        </div>
+                                        <div class="single-brand-item">
+                                            <a href="#"><img src="img/brand/3.png" alt=""></a>
+                                        </div>
+                                        <div class="single-brand-item">
+                                            <a href="#"><img src="img/brand/4.png" alt=""></a>
+                                        </div>
+                                        <div class="single-brand-item">
+                                            <a href="#"><img src="img/brand/5.png" alt=""></a>
+                                        </div>
+                                        <div class="single-brand-item">
+                                            <a href="#"><img src="img/brand/6.png" alt=""></a>
+                                        </div>
+                                        <div class="single-brand-item">
+                                            <a href="#"><img src="img/brand/7.png" alt=""></a>
+                                        </div>
+                                        <div class="single-brand-item">
+                                            <a href="#"><img src="img/brand/8.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+						    </div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Subscribe area -->   
+    </main>
+    <!-- Start Footer Area -->
+  

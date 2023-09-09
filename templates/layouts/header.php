@@ -90,7 +90,7 @@
 
                                     <li><a href="./plan">Plan</a></li>
 
-                                    <li><a href="./user-panel">Dashboard</a></li>
+                                    <li><a href="./login">Dashboard</a></li>
                                     <li class="contact"><a href="./contact">Contact</a>
 
                                    
