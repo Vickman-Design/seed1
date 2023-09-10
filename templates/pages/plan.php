@@ -34,7 +34,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="col-xl-3 col-lg-3 col-md-6">
               <div class="pri_table_list text-center">
                 <div class="top-price-inner">
                   <h3>Silver plan</h3>
@@ -52,25 +52,26 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="col-xl-3 col-lg-3 col-md-6">
               <div class="pri_table_list text-center">
                 <div class="top-price-inner">
-                  <h3>Gold plan</h3>
+                  <h3>Standard Plan</h3>
                   <div class="rates">
-                    <span class="prices">15%</span><span class="users">Weekly</span>
+                    <span class="prices">#20,000</span></span>
                   </div>
                 </div>
                 <ol class="pricing-text">
-                  <li class="check">Minimam Invest : $1000</li>
-                  <li class="check">Maximam Invest : $10000</li>
-                  <li class="check">Avarage Monthly :100% </li>
+                <li class="check">Daily : #1,400</li>
+                  <li class="check">Minimum Invest : #7,000</li>
+                  <li class="check">Maximum Invest : #9,800</li>
+                  <li class="check">Average Monthly :+25% </li>
                 </ol>
                 <div class="price-btn">
                   <a class="blue" href="#">Invest Now</a>
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="col-xl-3 col-lg-3 col-md-6">
               <div class="pri_table_list text-center">
                 <div class="top-price-inner">
                   <h3>Platinum plan</h3>
@@ -88,7 +89,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="col-xl-3 col-lg-3 col-md-6">
               <div class="pri_table_list text-center">
                 <span class="base">Best sale</span>
                 <div class="top-price-inner">
@@ -107,46 +108,70 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="pri_table_list text-center">
-                <span class="base">Best sale</span>
-                <div class="top-price-inner">
-                  <h3>Premium plan</h3>
-                  <div class="rates">
-                    <span class="prices">100%</span><span class="users">Monthly</span>
-                  </div>
-                </div>
-                <ol class="pricing-text">
-                  <li class="check">Minimam Invest : $1000</li>
-                  <li class="check">Maximam Invest : $50000</li>
-                  <li class="check">Avarage Monthly : 250% </li>
-                </ol>
-                <div class="price-btn">
-                  <a class="blue" href="#">Invest Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="pri_table_list text-center">
-                <div class="top-price-inner">
-                  <h3>Premium plan</h3>
-                  <div class="rates">
-                    <span class="prices">100%</span><span class="users">Monthly</span>
-                  </div>
-                </div>
-                <ol class="pricing-text">
-                  <li class="check">Minimam Invest : $1000</li>
-                  <li class="check">Maximam Invest : $50000</li>
-                  <li class="check">Avarage Monthly : 250% </li>
-                </ol>
-                <div class="price-btn">
-                  <a class="blue" href="#">Invest Now</a>
-                </div>
-              </div>
-            </div>
+         
           </div>
         </div>
       </div>
       <!-- End Investment area -->
+       <!-- Start How to area -->
+    <div class="how-to-area bg-color-2 area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <div class="section-headline text-center">
+                        <h2>How to start</h2>
+                        <p>Help agencies to define their new business objectives and then create professional software.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- single-well end-->
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="single-how first-item">
+                        <div class="how-img">
+                            <span class="h-number">01</span>
+                            <a class="big-icon" href="#"><img src="img/about/h1.png" alt=""></a>
+                        </div>
+                        <div class="how-wel">
+                            <div class="how-content">
+                                <h4>Get access</h4>
+                                <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. Agencies to define their new business objectives and then create</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single-well end-->
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="single-how ">
+                        <div class="how-img">
+                            <span class="h-number">02</span>
+                            <a class="big-icon" href="#"><img src="img/about/h2.png" alt=""></a>
+                        </div>
+                        <div class="how-wel">
+                            <div class="how-content">
+                                <h4>Investment</h4>
+                                <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. Agencies to define their new business objectives and then create</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single-well end-->
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="single-how thired-item">
+                        <div class="how-img">
+                            <span class="h-number">03</span>
+                            <a class="big-icon" href="#"><img src="img/about/h3.png" alt=""></a>
+                        </div>
+                        <div class="how-wel">
+                            <div class="how-content">
+                                <h4>Get Profit</h4>
+                                <p>Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. Agencies to define their new business objectives and then create</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </main>
     <!-- Start Footer Area -->

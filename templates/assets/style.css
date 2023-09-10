@@ -831,10 +831,10 @@ span.users {
     font-weight: 600;
     border: 1px dotted #666;
 }
-.pri_table_list ol li:nth-child(2n){
+/* .pri_table_list ol li:nth-child(2n){
     border-top: none;
     border-bottom: none;
-}
+} */
 
 .price-btn a {
     color: #fff;
@@ -1910,7 +1910,7 @@ span.terms-text {
 }
 .login-overlay {
     position: absolute;
-    background: #150550;
+    background: #3c5780;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
@@ -1918,13 +1918,16 @@ span.terms-text {
     width: 100%;
     left: 0;
     height: 100%;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 .login-form {
-    background: #150550;
+    background: #1505506e;
     padding: 40px 50px;
-    margin: 0px 40px;
-    border-radius: 4px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+
+    border-radius: 10pxpx;
 }
 .login-area form#contactForm {
     border: none;
@@ -2075,7 +2078,7 @@ span.terms-text {
 }
 .acc-not {
     font-size: 13px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 600;
     color: #ccc;
 }
