@@ -66,22 +66,7 @@
         </div>
         <!-- End contact Form -->
       </div>
-      <div class="row">
-        <div class="col-xl-6 col-lg-6 col-md-6">
-          <div class="contact-single">
-            <h3>Community club</h3>
-            <p> When replacing a selection of text within a single line, the amount of words is roughly being maintained.multi-lined selection of text</p>
-            <a class="club-btn" href="#">Join us</a>
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-6 col-md-6">
-          <div class="contact-single">
-            <h3>Members club</h3>
-            <p> When replacing a selection of text within a single line, the amount of words is roughly being maintained.multi-lined selection of text</p>
-            <a class="club-btn" href="#">Join us</a>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div>
   <!-- End Contact Area -->

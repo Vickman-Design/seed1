@@ -8,7 +8,7 @@ ini_set('error_reporting', E_ALL);
 if (file_exists(DOT . '/config/config.php')) {
 	include(__DIR__ . '/config/config.php');
 	require __DIR__ . '/vendor/autoload.php';
-	date_default_timezone_set(default_timezone);
+	date_default_timezone_set("Africa/Lagos");
 	$Route = new Apps\Route;
 	$Template = new Apps\Template;
 	

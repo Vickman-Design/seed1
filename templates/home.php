@@ -78,7 +78,7 @@
                 <div class="col-xl-12 col-lg-12 col-md-12">
                     <div class="section-headline text-center">
                         <h2>Investment plan</h2>
-                        <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts</p>
+                        <p>To make a solid investment, you have to know where you are investing. Find a plan which is best for you.</p>
                     </div>
                 </div>
             </div>
@@ -86,15 +86,16 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="pri_table_list text-center">
                         <div class="top-price-inner">
-                            <h3>Silver plan</h3>
+                            <h3>Basic</h3>
                             <div class="rates">
-                                <span class="prices">5%</span><span class="users">Weekly</span>
+                            <span class="prices">#5,000</span></span>
                             </div>
                         </div>
                         <ol class="pricing-text">
-                            <li class="check">Minimam Invest : $100</li>
-                            <li class="check">Maximam Invest : $1000</li>
-                            <li class="check">Avarage Monthly : 50% </li>
+                        <li class="check">Daily : #1,000</li>
+
+                            <li class="check">Minimum  : #5,000</li>
+                            <li class="check">Maximum : #7,000</li>
                         </ol>
                         <div class="price-btn">
                             <a class="blue" href="#">Invest Now</a>
@@ -102,37 +103,40 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="pri_table_list text-center">
-                        <div class="top-price-inner">
-                            <h3>Gold plan</h3>
-                            <div class="rates">
-                                <span class="prices">15%</span><span class="users">Weekly</span>
-                            </div>
-                        </div>
-                        <ol class="pricing-text">
-                            <li class="check">Minimam Invest : $1000</li>
-                            <li class="check">Maximam Invest : $10000</li>
-                            <li class="check">Avarage Monthly :100% </li>
-                        </ol>
-                        <div class="price-btn">
-                            <a class="blue" href="#">Invest Now</a>
-                        </div>
-                    </div>
+              <div class="pri_table_list text-center">
+                <div class="top-price-inner">
+                  <h3>Standard </h3>
+                  <div class="rates">
+                    <span class="prices">#20,000</span></span>
+                  </div>
                 </div>
+                <ol class="pricing-text">
+                <li class="check">Daily : #1,400</li>
+                  <li class="check">Minimum : #7,000</li>
+                  <li class="check">Maximum: #9,800</li>
+                  <li class="check">Average  : #42,000 + 25% </li>
+                </ol>
+                <div class="price-btn">
+                  <a class="blue" href="#">Invest Now</a>
+                </div>
+              </div>
+            </div>
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="pri_table_list text-center">
                         <div class="top-price-inner">
-                            <h3>Platinum plan</h3>
+                            <h3>Premium Plan</h3>
                             <div class="rates">
-                                <span class="prices">50%</span><span class="users">Weekly</span>
+                            <span class="prices">#40,000</span></span>
                             </div>
                         </div>
                         <ol class="pricing-text">
-                            <li class="check">Minimam Invest : $1000</li>
-                            <li class="check">Maximam Invest : $50000</li>
-                            <li class="check">Avarage Monthly : 200% </li>
+                        <li class="check">Daily: #2,700</li>
+
+                            <li class="check">Minimum  : #13,500</li>
+                            <li class="check">Maximum  : #50000</li>
+                            <li class="check">Average  :#81,000 + 25% </li>
                         </ol>
-                        <div class="price-btn">
+                        <div class="price-btn ">
                             <a class="blue" href="#">Invest Now</a>
                         </div>
                     </div>
@@ -141,8 +145,8 @@
                  
               
             </div>
-            <div class="price-btn">
-                <a class="blue" href="#">Invest Now</a>
+            <div class="price-btn" style="text-align: center;">
+                <a class="blue" href="./plan">View All</a>
             </div>
         </div>
     </div>

@@ -1,3 +1,50 @@
+<?php
+$User = $Core->GetUserInfo($this->storage('accid'));
+?>
+
+
+<style>
+    /* Style for the dropdown menu */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropbtn {
+        background-color: #06052e;
+        color: white;
+        padding: 10px;
+        border: none;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #020134;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        color: #333;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #3498db;
+        color: white;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Add some styling for the rest of your dashboard elements here */
+</style>
 <main>
     <!-- Start Breadcrumb Area -->
     <div class="page-area bread-pd">
@@ -30,22 +77,31 @@
                         <div class="dashboard-side">
                             <div class="dashboard-head">
                                 <div class="dashboard-profile">
-                                    <img src="<?= $assets ?>/img/about/profile.png" alt="">
+                                    <!-- <img src="<?= $assets ?>/img/about/profile.png" alt=""> -->
                                     <div class="profile-content">
-                                        <span class="pro-name">jhon Deo</span>
-                                        <span class="pro-number">jonedoe@gmail.com</span>
+                                        <span class="pro-name"><?= $User->name ?></span>
+                                        <span class="pro-number"><?= $User->email ?></span>
                                     </div>
                                 </div>
                             </div>
                             <div class="dashboard-menu">
                                 <ul>
-                                    <li class="active"><a href="user-panel.html"><i class="ti-dashboard"></i>Dashboard</a></li>
-                                    <li><a href="user-deposit.html"><i class="ti-wallet"></i>Deposit Money</a></li>
-                                    <li><a href="user-withdraw.html"><i class="ti-import"></i>Withdraw Money</a></li>
-                                    <li><a href="user-invest.html"><i class="ti-new-window"></i>Total Investment</a></li>
-                                    <li><a href="user-transection.html"><i class="ti-layout-list-thumb"></i>Transection</a></li>
-                                    <li><a href="user-notifecations.html"><i class="ti-bell"></i>Notifecations</a></li>
-                                    <li><a href="user-info.html"><i class="ti-settings"></i>Settings</a></li>
+                                    <li class="active"><a href="./user-panel"><i class="ti-dashboard"></i>Dashboard</a></li>
+                                    <li><a href="./form-deposit"><i class="ti-wallet"></i>Deposit Money</a></li>
+                                    <li><a href="./user-withdraw"><i class="ti-import"></i>Withdraw Money</a></li>
+                                    <li><a href="./user-invest"><i class="ti-new-window"></i>Total Investment</a></li>
+                                    <?php if ($User->role == "admin") : ?>
+                                        <li><a href="./user-management"> <i class="ti-user"></i>Add Users</a></li>
+                                    <li><a href="./user-management">View Users</a></li>
+
+                                    <?php endif; ?>
+
+                                    <h1><?= $Self->Toast() ?></h1>
+                                   
+
+                                    <!-- <li><a href="./user-transaction"><i class="ti-layout-list-thumb"></i>Users</a></li> -->
+                                    <!-- <li><a href="./user-notifications"><i class="ti-bell"></i>Notifecations</a></li>
+                                    <li><a href="./user-info"><i class="ti-settings"></i>Settings</a></li> -->
                                     <li><a href="#"><i class="ti-shift-right"></i>Log out</a></li>
                                 </ul>
                             </div>
@@ -132,35 +188,26 @@
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single-dash-head">
                                 <div class="dashboard-amount">
-                                    <div class="amount-content">
-                                        <span class="pro-name">Deposite</span>
-                                        <span class="pro-money">$500</span>
-                                    </div>
+                                    <a href="./form-deposit" style="color: #fff;">
+                                        <div class="amount-content">
+                                            <span class="pro-name">Deposite</span>
+                                            <span class="pro-money">N <?= $User->balance ?> </span>
+                                        </div>
+                                    </a>
+
                                     <div class="invest-tumb">
                                         <i class="flaticon-035-savings"></i>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-dash-head">
-                                <div class="dashboard-amount">
-                                    <div class="amount-content">
-                                        <span class="pro-name">Withdraw</span>
-                                        <span class="pro-money">$500</span>
-                                    </div>
-                                    <div class="invest-tumb">
-                                        <i class="flaticon-041-umbrella"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single-dash-head">
                                 <div class="dashboard-amount">
                                     <div class="amount-content">
                                         <span class="pro-name">Invest</span>
-                                        <span class="pro-money">$500</span>
+                                        <span class="pro-money">N <?= $User->invest ?></span>
                                     </div>
                                     <div class="invest-tumb">
                                         <i class="flaticon-004-bar-chart"></i>
@@ -168,20 +215,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-dash-head">
-                                <div class="dashboard-amount">
-                                    <div class="amount-content">
-                                        <span class="pro-name">Wallet</span>
-                                        <span class="pro-money">$1200</span>
-                                    </div>
-                                    <div class="invest-tumb">
-                                        <i class="flaticon-042-wallet"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
+                      
+                        <!-- <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="single-dash-head">
                                 <div class="dashboard-amount">
                                     <div class="amount-content">
@@ -193,20 +228,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6">
-                            <div class="single-dash-head">
-                                <div class="dashboard-amount">
-                                    <div class="amount-content">
-                                        <span class="pro-name">Profite</span>
-                                        <span class="pro-money">$500</span>
-                                    </div>
-                                    <div class="invest-tumb">
-                                        <i class="flaticon-027-money-bag"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        </div> -->
+                      
                     </div>
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12">
@@ -269,64 +292,3 @@
     </div>
 </main>
 <!-- Start Footer Area -->
-<footer class="footer1 dashboard-footer">
-    <!-- Start Footer Bottom Area -->
-    <div class="footer-area-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="copyright">
-                        <p>
-                            Copyright © 2021
-                            <a href="#">GOLDHYIP</a> All Rights Reserved
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="footer-menu">
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
-                            <li><a href="#">Privacy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Footer Bottom Area -->
-</footer>
-<!-- End Footer Area -->
-
-<!-- All JS here -->
-
-<!-- modernizr JS -->
-<script src="js/vendor/modernizr-3.5.0.min.js"></script>
-<!-- jquery latest version -->
-<script src="js/vendor/jquery-1.12.4.min.js"></script>
-<!-- Poper js -->
-<script src="js/popper.min.js"></script>
-<!-- bootstrap js -->
-<script src="js/bootstrap.min.js"></script>
-<!-- owl.carousel js -->
-<script src="js/owl.carousel.min.js"></script>
-<!-- meanmenu js -->
-<script src="js/jquery.meanmenu.js"></script>
-<!-- Counter js -->
-<script src="js/jquery.counterup.min.js"></script>
-<!-- waypoint js -->
-<script src="js/waypoints.js"></script>
-<!-- magnific js -->
-<script src="js/magnific.min.js"></script>
-<!-- wow js -->
-<script src="js/wow.min.js"></script>
-<!-- plugins js -->
-<script src="js/plugins.js"></script>
-<!-- main js -->
-<script src="js/main.js"></script>
-</body>
-
-
-<!-- Mirrored from rockstheme.com/rocks/live-goldhyip/user-panel.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Sep 2023 09:23:21 GMT -->
-
-</html>

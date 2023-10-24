@@ -6,7 +6,7 @@
  * Constants
  */
 
-define("appname","Anthill");
+define("appname","Seed");
 define("version","21.03.29");
 define("version_date","29-03-2021");
 define("debug",true);
@@ -18,6 +18,7 @@ define("language","en_US");
 define("url",__DIR__);
 define("baseurl",__DIR__);
 define("apps_dir","./_apps/");
+define("Api_key","sk_test_c9c91795b03e0021f69d4ade4d1a85f1c3c35baa");
 define("template_file_extension","php");
 define("templates_dir","./templates/");
 define("templates_default","404");
@@ -38,7 +39,7 @@ define("session_path","./_sessions/");
 define("session_timout",20);
 define("session_delete_timout",30);
 define("auth_session_key","logged_in");
-define("auth_url","/auth/login");
+define("auth_url","/seed/login");
 
 define("domain", "https://localhost/seed/");
 

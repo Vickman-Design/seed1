@@ -1,4 +1,6 @@
-
+<?php
+$User = $Core->GetUserInfo($this->storage('accid'));
+?>
     <main>
     <!-- Start Breadcrumb Area -->
         <div class="page-area bread-pd">
@@ -8,6 +10,7 @@
                     <div class="col-xl-12">
                         <div class="breadcrumb-title">
                             <h2>User Information </h2>
+                            <h3><?= $Self->Toast()?></h3>
                             <div class="bread-come">
                                 <nav aria-label="breadcrumb ">
                                     <ol class="breadcrumb purple lighten-4">
@@ -34,19 +37,19 @@
                                     <div class="dashboard-profile">
                                         <img src="<?= $assets ?>img/about/profile.png" alt="">
                                         <div class="profile-content">
-                                            <span class="pro-name">jhon Deo</span>
-                                            <span class="pro-number">jonedoe@gmail.com</span>
+                                            <span class="pro-name"><?= $User->name?></span>
+                                            <span class="pro-number"><?= $User->email?></span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="dashboard-menu">
                                     <ul>
                                         <li><a href="./user-pane"><i class="ti-dashboard"></i>Dashboard</a></li>
-                                        <li><a href="./user-deposit"><i class="ti-wallet"></i>Deposit Money</a></li>
+                                        <li><a href="../form-deposit"><i class="ti-wallet"></i>Deposit Money</a></li>
                                         <li><a href="./user-withdraw"><i class="ti-import"></i>Withdraw Money</a></li>
                                         <li><a href="./user-invest"><i class="ti-new-window"></i>Total Investment</a></li>
                                         <li><a href="./user-transaction"><i class="ti-layout-list-thumb"></i>Transection</a></li>
-                                        <li><a href="./user-notifications"><i class="ti-bell"></i>Notifecations</a></li>
+                                        <li><a href="./user-notifications"><i class="ti-bell"></i>Users</a></li>
                                         <li class="active"><a href="./user-info."><i class="ti-settings"></i>Settings</a></li>
                                         <li><a href="#"><i class="ti-shift-right"></i>Log out</a></li>
                                     </ul>
@@ -138,7 +141,7 @@
                             <ul class="user-info-inner_list">
                                 <li>
                                     <span class="caption">Name</span>
-                                    <span class="value">Joz Harison</span>
+                                    <span class="value"><?= $User->name ?></span>
                                 </li>
                                 <li>
                                     <span class="caption">Date of Birth</span>
@@ -180,7 +183,7 @@
                             <ul class="user-info-inner_list">
                                 <li>
                                    <span class="caption">Email</span>
-                                   <span class="value">support@gmail.com</span>
+                                   <span class="value"><?= $User->email ?></span>
                                 </li>
                             </ul>
                         </div>
@@ -193,7 +196,7 @@
                             <ul class="user-info-inner_list">
                                 <li>
                                     <span class="caption">Mobile</span>
-                                    <span class="value">+018-786-865</span>
+                                    <span class="value"><?= $User->phone ?></span>
                                 </li>
                             </ul>
                         </div>

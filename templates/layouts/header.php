@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="utf-8">
+    <base href="<?= domain ?>">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title><?= $title?></title>
     <meta name="description" content="">
@@ -89,7 +90,7 @@
 
                                     <li><a href="./plan">Plan</a></li>
 
-                                    <li><a href="./login">Dashboard</a></li>
+                                    <li><a href="./user-panel">Dashboard</a></li>
                                     <li class="contact"><a href="./contact">Contact</a>
 
                                    

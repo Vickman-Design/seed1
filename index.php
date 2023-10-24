@@ -3,14 +3,16 @@
 
 define('DOT', '.');
 require_once DOT . "/bootstrap.php";
+require_once DOT . "/_public/user.php";
+require_once DOT . "/_public/deposit.php";
 
 //Home page//
-$Route->add('/seed/', function () {
+$Route->add('/seed/home', function () {
     
     $Template = new Apps\Template;
     $Template->addheader("layouts.header");
     $Template->addfooter("layouts.footer");
-    $Template->assign("title"," Home");
+    $Template->assign("title","Home");
 
     $Template->render("home");
 
@@ -61,8 +63,128 @@ $Route->add('/seed/registration', function () {
     $Template->addheader("layouts.header");
     $Template->addfooter("layouts.footer");
     $Template->assign("title"," SignUp");
-
+    
     $Template->render("pages.registration");
+
+}, 'GET');
+$Route->add('/seed/registration/seed/{user}', function ($user) {
+    
+    $Template = new Apps\Template;
+    $Core = new Apps\Core;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," SignUp");
+if($Core->GetUserInfoUserName($user)){
+    $Template->assign("referer",$user);
+}else{
+
+    $Template->assign("referer",null);
+}
+    $Template->render("pages.registration");
+
+}, 'GET');
+// $Route->add('/seed/user-deposit', function () {
+    
+//     $Template = new Apps\Template;
+//     $Template->addheader("layouts.header");
+//     $Template->addfooter("layouts.footer");
+//     $Template->assign("title"," SignUp");
+
+//     $Template->render("dashboard.user-deposit");
+
+// }, 'GET');
+
+$Route->add('/seed/user-info', function () {
+    
+    $Template = new Apps\Template;
+    $Core = new Apps\Core;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," SignUp");
+
+    $Template->render("dashboard.user-info");
+
+}, 'GET');
+$Route->add('/seed/user-invest', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," SignUp");
+
+    $Template->render("dashboard.user-invest");
+
+}, 'GET');
+$Route->add('/dashboard/form-deposit', function () {
+    
+    $Template = new Apps\Template(auth_url);
+    
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," SignUp");
+
+    $Template->render("dashboard.form-deposit");
+
+}, 'GET');
+$Route->add('/dashboard/transfer', function () {
+    
+    $Template = new Apps\Template(auth_url);
+    
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," transfer");
+
+    $Template->render("dashboard.transfer");
+
+}, 'GET');
+$Route->add('/seed/user-panel', function () {
+    
+    $Template = new Apps\Template(auth_url);
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," Dashboard");
+
+    $Template->render("dashboard.user-panel");
+
+}, 'GET');
+$Route->add('/seed/user-transaction', function () {
+    
+    $Template = new Apps\Template(auth_url);
+    $Template->addheader("layouts.header");
+    $Template->addfooter("layouts.footer");
+    $Template->assign("title"," SignUp");
+
+    $Template->render("dashboard.user-transaction");
+
+}, 'GET');
+$Route->add('/seed/user-withdraw', function () {
+    
+    $Template = new Apps\Template(auth_url);
+    $Template->addheader("dashboard/layout.header");
+    $Template->addfooter("dashboard/layout.footer");
+    $Template->assign("title"," SignUp");
+
+    $Template->render("dashboard.user-withdraw");
+
+}, 'GET');
+$Route->add('/seed/form-deposit', function () {
+    
+    $Template = new Apps\Template(auth_url);
+    $Template->addheader("dashboard/layout.header");
+    $Template->addfooter("dashboard/layout.footer");
+    $Template->assign("title"," SignUp");
+
+    $Template->render("dashboard.form-deposit");
+
+}, 'GET');
+$Route->add('/seed/user-management', function () {
+    
+    $Template = new Apps\Template;
+    $Template->addheader("dashboard/layout.header");
+    $Template->addfooter("dashboard/layout.footer");
+    $Template->assign("title"," SignUp");
+
+    $Template->render("dashboard.user-management");
 
 }, 'GET');
 //Home page//
@@ -73,7 +195,7 @@ $Route->add('/seed/registration', function () {
 
 //Logout Sessions//
 $Route->add(
-    '/auth/logout',
+    '/seed/auth/logout',
     function () {
         $Template = new Apps\Template;
         $Template->expire();

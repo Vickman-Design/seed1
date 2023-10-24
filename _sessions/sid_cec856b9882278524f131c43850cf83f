@@ -1,0 +1,1 @@
+a:5:{s:5:"token";O:8:"stdClass":3:{s:3:"tik";i:1696198396;s:3:"tok";s:40:"28dc42864584a5af311d53f6ada0e2296469ea4f";s:5:"token";s:40:"8ff21a722e7e69f9f0f8c89e473d734d64550006";}s:5:"accid";s:1:"1";s:9:"auth_time";s:19:"01-10-2023 23:13:16";s:9:"logged_in";b:1;s:6:"errors";a:3:{s:5:"error";s:13:"Login success";s:4:"type";s:7:"success";s:5:"route";s:10:"/user-info";}}
