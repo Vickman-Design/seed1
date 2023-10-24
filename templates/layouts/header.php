@@ -17,6 +17,11 @@
 
     <!-- bootstrap 4.0 css -->
     <link rel="stylesheet" href="<?= $assets ?>/css/bootstrap.min.css">
+    <!-- Include Bootstrap CSS -->
+    <link href="library/bootstrap-5/bootstrap.min.css" rel="stylesheet" />
+<!-- Include Bootstrap-select CSS and JS -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0/dist/css/bootstrap-select.min.css"> -->
+
     <!-- owl.carousel css -->
     <link rel="stylesheet" href="<?= $assets ?>/css/owl.carousel.min.css">
     <!-- Animate css -->

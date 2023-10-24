@@ -126,7 +126,7 @@ $Route->add('/dashboard/form-deposit', function () {
     $Template->render("dashboard.form-deposit");
 
 }, 'GET');
-$Route->add('/dashboard/transfer', function () {
+$Route->add('/seed/transfer', function () {
     
     $Template = new Apps\Template(auth_url);
     
@@ -152,7 +152,7 @@ $Route->add('/seed/user-transaction', function () {
     $Template = new Apps\Template(auth_url);
     $Template->addheader("layouts.header");
     $Template->addfooter("layouts.footer");
-    $Template->assign("title"," SignUp");
+    $Template->assign("title"," user-transaction");
 
     $Template->render("dashboard.user-transaction");
 
@@ -162,7 +162,7 @@ $Route->add('/seed/user-withdraw', function () {
     $Template = new Apps\Template(auth_url);
     $Template->addheader("dashboard/layout.header");
     $Template->addfooter("dashboard/layout.footer");
-    $Template->assign("title"," SignUp");
+    $Template->assign("title"," user-withdraw");
 
     $Template->render("dashboard.user-withdraw");
 
@@ -172,19 +172,9 @@ $Route->add('/seed/form-deposit', function () {
     $Template = new Apps\Template(auth_url);
     $Template->addheader("dashboard/layout.header");
     $Template->addfooter("dashboard/layout.footer");
-    $Template->assign("title"," SignUp");
+    $Template->assign("title"," form-deposit");
 
     $Template->render("dashboard.form-deposit");
-
-}, 'GET');
-$Route->add('/seed/user-management', function () {
-    
-    $Template = new Apps\Template;
-    $Template->addheader("dashboard/layout.header");
-    $Template->addfooter("dashboard/layout.footer");
-    $Template->assign("title"," SignUp");
-
-    $Template->render("dashboard.user-management");
 
 }, 'GET');
 //Home page//
